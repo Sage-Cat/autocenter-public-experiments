@@ -1,0 +1,67 @@
+{
+  "bundle_id": "ac01_natural_operation_baseline_20260812T142321Z",
+  "program_id": "AC01",
+  "series": "AutoCenter operational sensing",
+  "campaign": "August-2026 operational retail",
+  "topology": "single-sensor-single-collector",
+  "condition": "natural-production-network",
+  "status": "published-claim-grade-for-stability-and-timing-only",
+  "source_bundle": "experiments/runs/run-20260812t142321z-shop-natural-occupancy-24h",
+  "collection": {
+    "mode": "unlabelled-natural-operation",
+    "started_utc": "2026-08-12T14:23:21.763Z",
+    "ended_utc": "2026-08-13T14:23:21.795Z",
+    "scheduled_duration_seconds": 86400,
+    "observed_record_span_seconds": 86399.618499826,
+    "site_class": "operational-retail-building",
+    "network_policy": "production-network-observe-only",
+    "operator_intervention": "none recorded during autonomous collection"
+  },
+  "topology_summary": {
+    "collector": "Raspberry Pi 5 autonomous collector",
+    "sensor": "ESP32-S3 CSI sensor",
+    "sensor_id": "sensor-node-b",
+    "sensor_firmware_version": "1.0.2",
+    "radio_band": "2.4 GHz",
+    "channel": 2,
+    "bssid": "02:00:00:00:00:01",
+    "bssid_semantics": "stable pseudonym for the observed production AP",
+    "sensor_mac": "02:00:00:00:00:02",
+    "sensor_mac_semantics": "stable pseudonym for the ESP32 station",
+    "device_reference_height_m": 1.2,
+    "environment": "fixed endpoint in a naturally occupied reflective retail environment"
+  },
+  "measurement_surface": {
+    "chunk_count": 288,
+    "chunk_status": "all-complete",
+    "measurement_envelopes": 2878787,
+    "public_compressed_chunk_bytes": 667884581,
+    "collector_event_records": 6,
+    "collector_health_records": 8613,
+    "valid_csi_records": 2861493,
+    "malformed_csi_candidates": 16,
+    "timing_heartbeats": 17267,
+    "source_sequence_missing": 0,
+    "csi_sequence_estimated_missing": 621
+  },
+  "timing_surface": {
+    "esp_32bit_microsecond_timestamp_wraps": 20,
+    "nonwrap_timestamp_regressions": 0,
+    "serial_transport_disconnects": 1,
+    "serial_disconnect_duration_seconds": 2.007604372,
+    "firmware_boot_epochs_observed": 1,
+    "collector_boot_ids_observed": 1,
+    "longest_valid_csi_gap_seconds": 32.617819514,
+    "longest_any_envelope_gap_seconds": 6.767067684
+  },
+  "privacy": {
+    "source_and_session_ids": "replaced with stable public labels",
+    "mac_addresses": "replaced with locally administered pseudonyms",
+    "board_serial_and_device_paths": "excluded",
+    "collector_hostname_and_local_paths": "excluded",
+    "collector_boot_uuid": "replaced with collector-boot-1",
+    "interface_names": "replaced with functional public labels",
+    "credentials_and_ip_addresses": "not present in the published surface"
+  },
+  "claim_boundary": "Claim-grade only for 24-hour continuity, integrity, rollover handling, transport-failure discrimination, radio variability, and collector hardware stability. The run contains no occupancy or activity labels and cannot establish human sensing/classification accuracy."
+}

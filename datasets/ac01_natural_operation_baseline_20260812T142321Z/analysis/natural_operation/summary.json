@@ -1,0 +1,1420 @@
+{
+  "artifact_accounting": {
+    "chunk_ledger": {
+      "all_complete": true,
+      "entries": 288,
+      "ledger_compressed_bytes": 888407717,
+      "ledger_records": 2878787,
+      "observed_records": 2878787,
+      "record_difference": 0,
+      "status_counts": {
+        "complete": 288
+      },
+      "unique_paths": 288
+    },
+    "event_records": 6,
+    "event_type_counts": {
+      "collector_session_started": 1,
+      "collector_session_stopped": 1,
+      "source_connected": 2,
+      "source_disconnected": 1,
+      "source_stopped": 1
+    }
+  },
+  "claim_boundary": "This is an unlabelled natural-operation RF/CSI dataset. It supports stability, continuity, timing-wrap, signal-variation, and data-quality claims; it does not establish human occupancy or activity-classification accuracy.",
+  "continuity": {
+    "all_record_gaps": {
+      "counts_at_or_above_seconds": {
+        "0.05": 279710,
+        "0.1": 37248,
+        "0.25": 4651,
+        "0.5": 2211,
+        "1.0": 1223,
+        "2.0": 50,
+        "5.0": 7
+      },
+      "intervals": 2878786,
+      "largest": [
+        {
+          "after_utc": "2026-08-13T10:00:06.256606+00:00",
+          "after_wall_time_ns": 1786615206256606162,
+          "before_wall_time_ns": 1786615199489538478,
+          "seconds": 6.767067684
+        },
+        {
+          "after_utc": "2026-08-12T20:09:08.298228+00:00",
+          "after_wall_time_ns": 1786565348298227393,
+          "before_wall_time_ns": 1786565343296174139,
+          "seconds": 5.002053254
+        },
+        {
+          "after_utc": "2026-08-12T20:05:28.225820+00:00",
+          "after_wall_time_ns": 1786565128225820277,
+          "before_wall_time_ns": 1786565123223789621,
+          "seconds": 5.002030656
+        },
+        {
+          "after_utc": "2026-08-12T20:09:03.296174+00:00",
+          "after_wall_time_ns": 1786565343296174139,
+          "before_wall_time_ns": 1786565338294923398,
+          "seconds": 5.001250741
+        },
+        {
+          "after_utc": "2026-08-12T20:09:18.299878+00:00",
+          "after_wall_time_ns": 1786565358299877738,
+          "before_wall_time_ns": 1786565353298641362,
+          "seconds": 5.001236376
+        },
+        {
+          "after_utc": "2026-08-12T20:08:58.294924+00:00",
+          "after_wall_time_ns": 1786565338294923398,
+          "before_wall_time_ns": 1786565333293708008,
+          "seconds": 5.00121539
+        },
+        {
+          "after_utc": "2026-08-12T20:09:13.298641+00:00",
+          "after_wall_time_ns": 1786565353298641362,
+          "before_wall_time_ns": 1786565348298227393,
+          "seconds": 5.000413969
+        },
+        {
+          "after_utc": "2026-08-12T19:20:52.066176+00:00",
+          "after_wall_time_ns": 1786562452066176437,
+          "before_wall_time_ns": 1786562447216860456,
+          "seconds": 4.849315981
+        },
+        {
+          "after_utc": "2026-08-12T18:55:26.572893+00:00",
+          "after_wall_time_ns": 1786560926572892714,
+          "before_wall_time_ns": 1786560922387962859,
+          "seconds": 4.184929855
+        },
+        {
+          "after_utc": "2026-08-12T20:09:22.317026+00:00",
+          "after_wall_time_ns": 1786565362317025782,
+          "before_wall_time_ns": 1786565358299877738,
+          "seconds": 4.017148044
+        },
+        {
+          "after_utc": "2026-08-12T20:08:53.293708+00:00",
+          "after_wall_time_ns": 1786565333293708008,
+          "before_wall_time_ns": 1786565329699206268,
+          "seconds": 3.59450174
+        },
+        {
+          "after_utc": "2026-08-13T12:33:03.834371+00:00",
+          "after_wall_time_ns": 1786624383834371053,
+          "before_wall_time_ns": 1786624380701121062,
+          "seconds": 3.133249991
+        },
+        {
+          "after_utc": "2026-08-12T18:55:36.574671+00:00",
+          "after_wall_time_ns": 1786560936574671103,
+          "before_wall_time_ns": 1786560933751141196,
+          "seconds": 2.823529907
+        },
+        {
+          "after_utc": "2026-08-13T12:32:58.802757+00:00",
+          "after_wall_time_ns": 1786624378802757225,
+          "before_wall_time_ns": 1786624375981750418,
+          "seconds": 2.821006807
+        },
+        {
+          "after_utc": "2026-08-13T12:33:11.592607+00:00",
+          "after_wall_time_ns": 1786624391592606579,
+          "before_wall_time_ns": 1786624388835620633,
+          "seconds": 2.756985946
+        },
+        {
+          "after_utc": "2026-08-12T20:05:20.896458+00:00",
+          "after_wall_time_ns": 1786565120896458548,
+          "before_wall_time_ns": 1786565118222554770,
+          "seconds": 2.673903778
+        },
+        {
+          "after_utc": "2026-08-13T12:33:17.241804+00:00",
+          "after_wall_time_ns": 1786624397241803902,
+          "before_wall_time_ns": 1786624394596751308,
+          "seconds": 2.645052594
+        },
+        {
+          "after_utc": "2026-08-13T12:33:23.447182+00:00",
+          "after_wall_time_ns": 1786624403447182014,
+          "before_wall_time_ns": 1786624400916665690,
+          "seconds": 2.530516324
+        },
+        {
+          "after_utc": "2026-08-13T09:59:26.588600+00:00",
+          "after_wall_time_ns": 1786615166588600035,
+          "before_wall_time_ns": 1786615164142746761,
+          "seconds": 2.445853274
+        },
+        {
+          "after_utc": "2026-08-12T16:50:02.867776+00:00",
+          "after_wall_time_ns": 1786553402867776503,
+          "before_wall_time_ns": 1786553400448394300,
+          "seconds": 2.419382203
+        }
+      ],
+      "maximum_seconds": 6.767067684,
+      "mean_seconds": 0.030012518644950952
+    },
+    "csi_sequence_duplicates": 0,
+    "csi_sequence_first": 19353,
+    "csi_sequence_last": 2881466,
+    "csi_sequence_missing": 621,
+    "csi_sequence_regressions": 0,
+    "source_sequence_duplicates": 0,
+    "source_sequence_missing": 0,
+    "source_sequence_regressions": 0,
+    "transport_disconnects": [
+      {
+        "duration_seconds": 2.007604372,
+        "end_wall_time_ns": 1786629782466174274,
+        "error": "device reports readiness to read but returned no data (device disconnected or multiple access on port?)",
+        "source_id": "sensor-node-b",
+        "start_wall_time_ns": 1786629780458569902
+      }
+    ],
+    "valid_csi_gaps": {
+      "counts_at_or_above_seconds": {
+        "0.05": 281378,
+        "0.1": 37333,
+        "0.25": 4540,
+        "0.5": 2238,
+        "1.0": 1458,
+        "10.0": 1,
+        "2.0": 65,
+        "5.0": 4
+      },
+      "intervals": 2861492,
+      "largest": [
+        {
+          "after_utc": "2026-08-12T20:09:22.317026+00:00",
+          "after_wall_time_ns": 1786565362317025782,
+          "before_wall_time_ns": 1786565329699206268,
+          "seconds": 32.617819514
+        },
+        {
+          "after_utc": "2026-08-12T20:05:29.756879+00:00",
+          "after_wall_time_ns": 1786565129756878805,
+          "before_wall_time_ns": 1786565121883233371,
+          "seconds": 7.873645434
+        },
+        {
+          "after_utc": "2026-08-13T10:00:06.256606+00:00",
+          "after_wall_time_ns": 1786615206256606162,
+          "before_wall_time_ns": 1786615199489538478,
+          "seconds": 6.767067684
+        },
+        {
+          "after_utc": "2026-08-12T19:20:52.066176+00:00",
+          "after_wall_time_ns": 1786562452066176437,
+          "before_wall_time_ns": 1786562446530169943,
+          "seconds": 5.536006494
+        },
+        {
+          "after_utc": "2026-08-13T12:33:05.627525+00:00",
+          "after_wall_time_ns": 1786624385627524782,
+          "before_wall_time_ns": 1786624380701121062,
+          "seconds": 4.92640372
+        },
+        {
+          "after_utc": "2026-08-12T18:55:27.159798+00:00",
+          "after_wall_time_ns": 1786560927159798011,
+          "before_wall_time_ns": 1786560922387962859,
+          "seconds": 4.771835152
+        },
+        {
+          "after_utc": "2026-08-13T12:33:30.700403+00:00",
+          "after_wall_time_ns": 1786624410700403290,
+          "before_wall_time_ns": 1786624406786578227,
+          "seconds": 3.913825063
+        },
+        {
+          "after_utc": "2026-08-12T20:05:20.896458+00:00",
+          "after_wall_time_ns": 1786565120896458548,
+          "before_wall_time_ns": 1786565117156246378,
+          "seconds": 3.74021217
+        },
+        {
+          "after_utc": "2026-08-12T19:28:58.473945+00:00",
+          "after_wall_time_ns": 1786562938473944840,
+          "before_wall_time_ns": 1786562935251882193,
+          "seconds": 3.222062647
+        },
+        {
+          "after_utc": "2026-08-13T12:33:20.916666+00:00",
+          "after_wall_time_ns": 1786624400916665690,
+          "before_wall_time_ns": 1786624397814142986,
+          "seconds": 3.102522704
+        },
+        {
+          "after_utc": "2026-08-13T11:57:04.142532+00:00",
+          "after_wall_time_ns": 1786622224142532237,
+          "before_wall_time_ns": 1786622221072192950,
+          "seconds": 3.070339287
+        },
+        {
+          "after_utc": "2026-08-12T18:55:36.813379+00:00",
+          "after_wall_time_ns": 1786560936813379029,
+          "before_wall_time_ns": 1786560933751141196,
+          "seconds": 3.062237833
+        },
+        {
+          "after_utc": "2026-08-13T12:23:54.281447+00:00",
+          "after_wall_time_ns": 1786623834281447481,
+          "before_wall_time_ns": 1786623831256603998,
+          "seconds": 3.024843483
+        },
+        {
+          "after_utc": "2026-08-13T12:32:58.802757+00:00",
+          "after_wall_time_ns": 1786624378802757225,
+          "before_wall_time_ns": 1786624375981750418,
+          "seconds": 2.821006807
+        },
+        {
+          "after_utc": "2026-08-13T12:33:11.592607+00:00",
+          "after_wall_time_ns": 1786624391592606579,
+          "before_wall_time_ns": 1786624388823651167,
+          "seconds": 2.768955412
+        },
+        {
+          "after_utc": "2026-08-13T12:33:17.241804+00:00",
+          "after_wall_time_ns": 1786624397241803902,
+          "before_wall_time_ns": 1786624394596751308,
+          "seconds": 2.645052594
+        },
+        {
+          "after_utc": "2026-08-13T12:11:09.621074+00:00",
+          "after_wall_time_ns": 1786623069621074128,
+          "before_wall_time_ns": 1786623067044431520,
+          "seconds": 2.576642608
+        },
+        {
+          "after_utc": "2026-08-12T18:55:22.387963+00:00",
+          "after_wall_time_ns": 1786560922387962859,
+          "before_wall_time_ns": 1786560919818670790,
+          "seconds": 2.569292069
+        },
+        {
+          "after_utc": "2026-08-12T18:56:31.797483+00:00",
+          "after_wall_time_ns": 1786560991797482732,
+          "before_wall_time_ns": 1786560989239398218,
+          "seconds": 2.558084514
+        },
+        {
+          "after_utc": "2026-08-13T12:33:23.447182+00:00",
+          "after_wall_time_ns": 1786624403447182014,
+          "before_wall_time_ns": 1786624400916665690,
+          "seconds": 2.530516324
+        }
+      ],
+      "maximum_seconds": 32.617819514,
+      "mean_seconds": 0.030193887593944015
+    }
+  },
+  "generated_at": "2026-08-14T06:09:15Z",
+  "health": {
+    "collector_host": {
+      "boot_ids": {
+        "collector-boot-1": 8613
+      },
+      "disk_free_bytes": {
+        "consumed_first_to_last": 907055104,
+        "first": 25288318976,
+        "last": 24381263872,
+        "minimum": 24381263872
+      },
+      "interface_counter_deltas": {
+        "ethernet": {
+          "rx_bytes": 0,
+          "rx_dropped": 0,
+          "tx_bytes": 0,
+          "tx_dropped": 0
+        },
+        "lo": {
+          "rx_bytes": 0,
+          "rx_dropped": 0,
+          "tx_bytes": 0,
+          "tx_dropped": 0
+        },
+        "management_wifi": {
+          "rx_bytes": 2167340791,
+          "rx_dropped": 348,
+          "tx_bytes": 22789722,
+          "tx_dropped": 0
+        }
+      },
+      "interface_state_counts": {
+        "ethernet": {
+          "down": 8613
+        },
+        "lo": {
+          "unknown": 8613
+        },
+        "management_wifi": {
+          "up": 8613
+        }
+      },
+      "load_average_15m": {
+        "max": 0.3466796875,
+        "mean": 0.18188042874869367,
+        "min": 0.0361328125,
+        "n": 8613,
+        "stddev": 0.04037310893838623
+      },
+      "load_average_1m": {
+        "max": 1.05810546875,
+        "mean": 0.21765172150745948,
+        "min": 0.0087890625,
+        "n": 8613,
+        "stddev": 0.09157112051515506
+      },
+      "load_average_5m": {
+        "max": 0.47265625,
+        "mean": 0.21033765048110448,
+        "min": 0.0673828125,
+        "n": 8613,
+        "stddev": 0.05242476322567404
+      },
+      "maximum_sample_gap_seconds": 12.588357615,
+      "monotonic_time_regressions": 0,
+      "samples": 8613,
+      "system_clock_synchronized_counts": {
+        "true": 8613
+      },
+      "temperature_c": {
+        "max": 60.6,
+        "mean": 55.79348659003842,
+        "min": 52.9,
+        "n": 8613,
+        "stddev": 0.9949661177600817
+      },
+      "wall_time_regressions": 0
+    },
+    "heartbeat_counters": {
+      "csi_count_delta": 2861995,
+      "first_csi_count": 19448,
+      "first_output_drops": 4,
+      "first_uptime_ms": 667195,
+      "first_wall_time_ns": 1786544605906480176,
+      "last_csi_count": 2881443,
+      "last_output_drops": 1203,
+      "last_uptime_ms": 87065120,
+      "last_wall_time_ns": 1786631001198911033,
+      "output_drop_delta": 1199
+    },
+    "temperature_c": {
+      "max": null,
+      "mean": null,
+      "min": null,
+      "n": 0,
+      "stddev": null
+    }
+  },
+  "hourly": [
+    {
+      "csi_candidates": 68253,
+      "heartbeats": 439,
+      "hour_local": "2026-08-12T17:00:00+03:00",
+      "malformed_csi": 1,
+      "mean_csi_per_second_nominal_hour": 18.95888888888889,
+      "rssi": {
+        "max": -70,
+        "mean": -75.95720271933348,
+        "min": -89,
+        "n": 68252,
+        "stddev": 0.9618216762316093
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 27.381462589921405,
+        "mean": 14.404887624704449,
+        "min": 11.504086500037863,
+        "n": 682,
+        "stddev": 1.2208426675530901
+      },
+      "sampled_csi_rms": {
+        "max": 34.574647503626124,
+        "mean": 17.316675939527162,
+        "min": 13.777529259631423,
+        "n": 682,
+        "stddev": 1.5705371834815662
+      },
+      "total_records": 68692,
+      "valid_csi": 68252
+    },
+    {
+      "csi_candidates": 102492,
+      "heartbeats": 720,
+      "hour_local": "2026-08-12T18:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 28.47,
+      "rssi": {
+        "max": -75,
+        "mean": -76.0218358506029,
+        "min": -77,
+        "n": 102492,
+        "stddev": 0.14721163582312788
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 14.918525164492829,
+        "mean": 14.138576625729776,
+        "min": 11.648078958160946,
+        "n": 1022,
+        "stddev": 0.22728378306791727
+      },
+      "sampled_csi_rms": {
+        "max": 17.947188150236794,
+        "mean": 17.088791840550407,
+        "min": 13.931472912079325,
+        "n": 1022,
+        "stddev": 0.2989512994745146
+      },
+      "total_records": 103212,
+      "valid_csi": 102492
+    },
+    {
+      "csi_candidates": 118536,
+      "heartbeats": 720,
+      "hour_local": "2026-08-12T19:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 32.92666666666667,
+      "rssi": {
+        "max": -70,
+        "mean": -75.98643450091093,
+        "min": -85,
+        "n": 118536,
+        "stddev": 0.47496005200540575
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 27.379209074472374,
+        "mean": 14.166788938896532,
+        "min": 11.191714010043121,
+        "n": 1188,
+        "stddev": 0.7708808021023592
+      },
+      "sampled_csi_rms": {
+        "max": 34.79762922958977,
+        "mean": 17.028137725118633,
+        "min": 13.565523856453167,
+        "n": 1188,
+        "stddev": 0.9972658824171167
+      },
+      "total_records": 119256,
+      "valid_csi": 118536
+    },
+    {
+      "csi_candidates": 128199,
+      "heartbeats": 718,
+      "hour_local": "2026-08-12T20:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 35.61083333333333,
+      "rssi": {
+        "max": -74,
+        "mean": -75.66817213862876,
+        "min": -77,
+        "n": 128199,
+        "stddev": 0.4709358074856122
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.156124918536678,
+        "mean": 14.106072273816014,
+        "min": 11.48637946719212,
+        "n": 1276,
+        "stddev": 0.8061960834522337
+      },
+      "sampled_csi_rms": {
+        "max": 18.128232470376144,
+        "mean": 16.914891958185333,
+        "min": 13.652781310048146,
+        "n": 1276,
+        "stddev": 1.0302798527822983
+      },
+      "total_records": 128917,
+      "valid_csi": 128199
+    },
+    {
+      "csi_candidates": 128415,
+      "heartbeats": 720,
+      "hour_local": "2026-08-12T21:00:00+03:00",
+      "malformed_csi": 1,
+      "mean_csi_per_second_nominal_hour": 35.67055555555555,
+      "rssi": {
+        "max": -74,
+        "mean": -75.41609949070926,
+        "min": -78,
+        "n": 128414,
+        "stddev": 0.49321052546695826
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.211290462892752,
+        "mean": 14.119215710901761,
+        "min": 11.437222343914526,
+        "n": 1288,
+        "stddev": 0.814837707431344
+      },
+      "sampled_csi_rms": {
+        "max": 18.381801462315927,
+        "mean": 16.93934615737844,
+        "min": 13.62614674073342,
+        "n": 1288,
+        "stddev": 1.0391428071770439
+      },
+      "total_records": 129136,
+      "valid_csi": 128414
+    },
+    {
+      "csi_candidates": 129930,
+      "heartbeats": 720,
+      "hour_local": "2026-08-12T22:00:00+03:00",
+      "malformed_csi": 1,
+      "mean_csi_per_second_nominal_hour": 36.091388888888886,
+      "rssi": {
+        "max": -74,
+        "mean": -75.22602344357301,
+        "min": -76,
+        "n": 129929,
+        "stddev": 0.41937551298488623
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.152618168046766,
+        "mean": 14.241394466975493,
+        "min": 11.680779526736467,
+        "n": 1299,
+        "stddev": 0.7518764165133607
+      },
+      "sampled_csi_rms": {
+        "max": 18.237367203080602,
+        "mean": 17.059697074012842,
+        "min": 13.796795370664885,
+        "n": 1299,
+        "stddev": 0.9742989050934217
+      },
+      "total_records": 130651,
+      "valid_csi": 129929
+    },
+    {
+      "csi_candidates": 131523,
+      "heartbeats": 720,
+      "hour_local": "2026-08-12T23:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 36.534166666666664,
+      "rssi": {
+        "max": -74,
+        "mean": -75.22812739977002,
+        "min": -77,
+        "n": 131523,
+        "stddev": 0.42005981053098357
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.286148300767286,
+        "mean": 14.233662046451052,
+        "min": 11.733367773633255,
+        "n": 1316,
+        "stddev": 0.7614987948106745
+      },
+      "sampled_csi_rms": {
+        "max": 18.330515881993065,
+        "mean": 17.052465829220196,
+        "min": 13.846536119188798,
+        "n": 1316,
+        "stddev": 0.9828637877873321
+      },
+      "total_records": 132243,
+      "valid_csi": 131523
+    },
+    {
+      "csi_candidates": 132674,
+      "heartbeats": 719,
+      "hour_local": "2026-08-13T00:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 36.85388888888889,
+      "rssi": {
+        "max": -73,
+        "mean": -75.21665134088101,
+        "min": -77,
+        "n": 132674,
+        "stddev": 0.4120544989359481
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.154765573207282,
+        "mean": 14.21996824945465,
+        "min": 11.861100657520629,
+        "n": 1322,
+        "stddev": 0.8040180676808799
+      },
+      "sampled_csi_rms": {
+        "max": 18.231368914593332,
+        "mean": 17.034777747037687,
+        "min": 13.999441953163705,
+        "n": 1322,
+        "stddev": 1.0362884138745538
+      },
+      "total_records": 133393,
+      "valid_csi": 132674
+    },
+    {
+      "csi_candidates": 127459,
+      "heartbeats": 720,
+      "hour_local": "2026-08-13T01:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 35.405277777777776,
+      "rssi": {
+        "max": -74,
+        "mean": -75.27260530837447,
+        "min": -77,
+        "n": 127459,
+        "stddev": 0.4453347469722562
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.167789205117343,
+        "mean": 14.01031274522872,
+        "min": 11.089822146328853,
+        "n": 1274,
+        "stddev": 0.8888802859485205
+      },
+      "sampled_csi_rms": {
+        "max": 18.280154881728983,
+        "mean": 16.828874982995302,
+        "min": 13.085953824616682,
+        "n": 1274,
+        "stddev": 1.125317184225554
+      },
+      "total_records": 128179,
+      "valid_csi": 127459
+    },
+    {
+      "csi_candidates": 126616,
+      "heartbeats": 720,
+      "hour_local": "2026-08-13T02:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 35.17111111111111,
+      "rssi": {
+        "max": -74,
+        "mean": -75.29276710684297,
+        "min": -76,
+        "n": 126616,
+        "stddev": 0.45506715941459325
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.095930745829135,
+        "mean": 14.164966530557436,
+        "min": 11.680058421352017,
+        "n": 1264,
+        "stddev": 0.7776224004189005
+      },
+      "sampled_csi_rms": {
+        "max": 18.194478901578908,
+        "mean": 17.008000843472747,
+        "min": 13.870213138232591,
+        "n": 1264,
+        "stddev": 0.9890950706709062
+      },
+      "total_records": 127336,
+      "valid_csi": 126616
+    },
+    {
+      "csi_candidates": 125378,
+      "heartbeats": 720,
+      "hour_local": "2026-08-13T03:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 34.827222222222225,
+      "rssi": {
+        "max": -74,
+        "mean": -75.28829619231246,
+        "min": -76,
+        "n": 125378,
+        "stddev": 0.4529872510051971
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.043522964141975,
+        "mean": 14.19552046289958,
+        "min": 11.533881302292212,
+        "n": 1252,
+        "stddev": 0.7816753867697406
+      },
+      "sampled_csi_rms": {
+        "max": 18.150413218436654,
+        "mean": 17.027203556900243,
+        "min": 13.61639636614622,
+        "n": 1252,
+        "stddev": 1.005387084277609
+      },
+      "total_records": 126098,
+      "valid_csi": 125378
+    },
+    {
+      "csi_candidates": 127925,
+      "heartbeats": 719,
+      "hour_local": "2026-08-13T04:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 35.53472222222222,
+      "rssi": {
+        "max": -74,
+        "mean": -75.26020715262749,
+        "min": -76,
+        "n": 127925,
+        "stddev": 0.4387653410538799
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.204320069340426,
+        "mean": 14.20088968306335,
+        "min": 11.317874837992038,
+        "n": 1276,
+        "stddev": 0.7719942326443031
+      },
+      "sampled_csi_rms": {
+        "max": 18.36032577325359,
+        "mean": 17.0370939864078,
+        "min": 13.428921680462658,
+        "n": 1276,
+        "stddev": 0.9869492785352662
+      },
+      "total_records": 128644,
+      "valid_csi": 127925
+    },
+    {
+      "csi_candidates": 125628,
+      "heartbeats": 720,
+      "hour_local": "2026-08-13T05:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 34.89666666666667,
+      "rssi": {
+        "max": -74,
+        "mean": -75.37867354411428,
+        "min": -76,
+        "n": 125628,
+        "stddev": 0.4850894053036643
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.078044072000766,
+        "mean": 14.059652016567616,
+        "min": 11.23321212748434,
+        "n": 1259,
+        "stddev": 0.8241620303693462
+      },
+      "sampled_csi_rms": {
+        "max": 18.173641627367918,
+        "mean": 16.89465260766604,
+        "min": 13.403008057895063,
+        "n": 1259,
+        "stddev": 1.0445592148539136
+      },
+      "total_records": 126348,
+      "valid_csi": 125628
+    },
+    {
+      "csi_candidates": 123039,
+      "heartbeats": 719,
+      "hour_local": "2026-08-13T06:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 34.1775,
+      "rssi": {
+        "max": -75,
+        "mean": -75.34550833475585,
+        "min": -76,
+        "n": 123039,
+        "stddev": 0.47553372684808604
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.127235779998268,
+        "mean": 14.128815246329925,
+        "min": 11.370625128404281,
+        "n": 1227,
+        "stddev": 0.7472665531513092
+      },
+      "sampled_csi_rms": {
+        "max": 18.219795210155354,
+        "mean": 16.983830127707147,
+        "min": 13.441423845709204,
+        "n": 1227,
+        "stddev": 0.95054762238887
+      },
+      "total_records": 123758,
+      "valid_csi": 123039
+    },
+    {
+      "csi_candidates": 124548,
+      "heartbeats": 720,
+      "hour_local": "2026-08-13T07:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 34.596666666666664,
+      "rssi": {
+        "max": -75,
+        "mean": -75.36306484247045,
+        "min": -80,
+        "n": 124548,
+        "stddev": 0.48105025027746623
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.048326190557525,
+        "mean": 14.09881865076159,
+        "min": 11.550171855876073,
+        "n": 1250,
+        "stddev": 0.7922966041686657
+      },
+      "sampled_csi_rms": {
+        "max": 18.08508536059479,
+        "mean": 16.938846263765466,
+        "min": 13.681933799722904,
+        "n": 1250,
+        "stddev": 1.0184791370070918
+      },
+      "total_records": 125268,
+      "valid_csi": 124548
+    },
+    {
+      "csi_candidates": 118307,
+      "heartbeats": 719,
+      "hour_local": "2026-08-13T08:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 32.863055555555555,
+      "rssi": {
+        "max": -70,
+        "mean": -75.60745348964947,
+        "min": -86,
+        "n": 118307,
+        "stddev": 1.1102539019001518
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 25.740846783070904,
+        "mean": 14.140235248325105,
+        "min": 10.302154135788332,
+        "n": 1181,
+        "stddev": 1.0834306637755802
+      },
+      "sampled_csi_rms": {
+        "max": 33.6183776006517,
+        "mean": 16.95772089778946,
+        "min": 13.475092764059177,
+        "n": 1181,
+        "stddev": 1.4069802830979146
+      },
+      "total_records": 119026,
+      "valid_csi": 118307
+    },
+    {
+      "csi_candidates": 82628,
+      "heartbeats": 720,
+      "hour_local": "2026-08-13T09:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 22.952222222222222,
+      "rssi": {
+        "max": -71,
+        "mean": -76.7881710800207,
+        "min": -85,
+        "n": 82628,
+        "stddev": 0.7773148689867456
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 21.25110345027574,
+        "mean": 13.599732753800334,
+        "min": 11.34675609078408,
+        "n": 829,
+        "stddev": 0.7336768542231087
+      },
+      "sampled_csi_rms": {
+        "max": 27.878643259671012,
+        "mean": 16.57972535149545,
+        "min": 13.50520732902683,
+        "n": 829,
+        "stddev": 0.8830225968195641
+      },
+      "total_records": 83348,
+      "valid_csi": 82628
+    },
+    {
+      "csi_candidates": 89510,
+      "heartbeats": 719,
+      "hour_local": "2026-08-13T10:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 24.863888888888887,
+      "rssi": {
+        "max": -71,
+        "mean": -76.53125907719813,
+        "min": -88,
+        "n": 89510,
+        "stddev": 0.79123534392639
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 26.463998886596706,
+        "mean": 13.910468817584132,
+        "min": 11.668075805989078,
+        "n": 895,
+        "stddev": 0.8435103096851138
+      },
+      "sampled_csi_rms": {
+        "max": 33.71885136685412,
+        "mean": 16.87351093050402,
+        "min": 14.482478637995639,
+        "n": 895,
+        "stddev": 1.0904697790659625
+      },
+      "total_records": 90230,
+      "valid_csi": 89510
+    },
+    {
+      "csi_candidates": 95672,
+      "heartbeats": 720,
+      "hour_local": "2026-08-13T11:00:00+03:00",
+      "malformed_csi": 0,
+      "mean_csi_per_second_nominal_hour": 26.575555555555557,
+      "rssi": {
+        "max": -70,
+        "mean": -76.81988460573609,
+        "min": -86,
+        "n": 95672,
+        "stddev": 0.6180238353453174
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 26.42961442315314,
+        "mean": 14.155044505166336,
+        "min": 11.169221884266511,
+        "n": 957,
+        "stddev": 0.7877153299088329
+      },
+      "sampled_csi_rms": {
+        "max": 33.71317435365587,
+        "mean": 17.125238479889312,
+        "min": 13.894130955191116,
+        "n": 957,
+        "stddev": 1.0471841344350028
+      },
+      "total_records": 96392,
+      "valid_csi": 95672
+    },
+    {
+      "csi_candidates": 92232,
+      "heartbeats": 718,
+      "hour_local": "2026-08-13T12:00:00+03:00",
+      "malformed_csi": 1,
+      "mean_csi_per_second_nominal_hour": 25.619722222222222,
+      "rssi": {
+        "max": -70,
+        "mean": -77.37820255662362,
+        "min": -83,
+        "n": 92231,
+        "stddev": 0.5415936693297754
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 15.792371579397619,
+        "mean": 13.756387675666053,
+        "min": 12.654794717302627,
+        "n": 921,
+        "stddev": 0.2984206650607847
+      },
+      "sampled_csi_rms": {
+        "max": 18.43040117577477,
+        "mean": 16.91462801925427,
+        "min": 15.314158073495259,
+        "n": 921,
+        "stddev": 0.3596675334876745
+      },
+      "total_records": 92950,
+      "valid_csi": 92231
+    },
+    {
+      "csi_candidates": 102514,
+      "heartbeats": 718,
+      "hour_local": "2026-08-13T13:00:00+03:00",
+      "malformed_csi": 2,
+      "mean_csi_per_second_nominal_hour": 28.475555555555555,
+      "rssi": {
+        "max": -69,
+        "mean": -76.85915795223922,
+        "min": -87,
+        "n": 102512,
+        "stddev": 1.4524569829119451
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 26.97976294691794,
+        "mean": 13.88971462451647,
+        "min": 10.844452759101396,
+        "n": 1024,
+        "stddev": 1.2330816783453415
+      },
+      "sampled_csi_rms": {
+        "max": 35.00680737370947,
+        "mean": 16.99152536068785,
+        "min": 13.206295847057191,
+        "n": 1024,
+        "stddev": 1.5121763677879643
+      },
+      "total_records": 103232,
+      "valid_csi": 102512
+    },
+    {
+      "csi_candidates": 97331,
+      "heartbeats": 720,
+      "hour_local": "2026-08-13T14:00:00+03:00",
+      "malformed_csi": 4,
+      "mean_csi_per_second_nominal_hour": 27.03527777777778,
+      "rssi": {
+        "max": -70,
+        "mean": -77.18419349204179,
+        "min": -86,
+        "n": 97327,
+        "stddev": 1.1985610439694347
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 24.54011496275925,
+        "mean": 13.827350328419557,
+        "min": 10.613252397310468,
+        "n": 970,
+        "stddev": 0.9608696318410738
+      },
+      "sampled_csi_rms": {
+        "max": 31.229868515573358,
+        "mean": 17.003339316117206,
+        "min": 13.428049001995785,
+        "n": 970,
+        "stddev": 1.1793667925611364
+      },
+      "total_records": 98055,
+      "valid_csi": 97327
+    },
+    {
+      "csi_candidates": 162482,
+      "heartbeats": 720,
+      "hour_local": "2026-08-13T15:00:00+03:00",
+      "malformed_csi": 4,
+      "mean_csi_per_second_nominal_hour": 45.132777777777775,
+      "rssi": {
+        "max": -70,
+        "mean": -74.84874259899941,
+        "min": -86,
+        "n": 162478,
+        "stddev": 1.0068595531685354
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 27.39572908052818,
+        "mean": 14.711272464021086,
+        "min": 11.647682668779819,
+        "n": 1623,
+        "stddev": 2.0914736969629972
+      },
+      "sampled_csi_rms": {
+        "max": 34.67978517811205,
+        "mean": 17.525239109319536,
+        "min": 14.018681731889059,
+        "n": 1623,
+        "stddev": 2.9914493335114396
+      },
+      "total_records": 163205,
+      "valid_csi": 162478
+    },
+    {
+      "csi_candidates": 144446,
+      "heartbeats": 719,
+      "hour_local": "2026-08-13T16:00:00+03:00",
+      "malformed_csi": 1,
+      "mean_csi_per_second_nominal_hour": 40.12361111111111,
+      "rssi": {
+        "max": -69,
+        "mean": -73.92013569178674,
+        "min": -82,
+        "n": 144445,
+        "stddev": 0.49481849340257256
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 24.90195813523637,
+        "mean": 14.06032108099763,
+        "min": 11.663364746114002,
+        "n": 1443,
+        "stddev": 1.1448934492187013
+      },
+      "sampled_csi_rms": {
+        "max": 32.12731022821549,
+        "mean": 16.736467258502472,
+        "min": 14.085120695258524,
+        "n": 1443,
+        "stddev": 1.6007863845005632
+      },
+      "total_records": 145166,
+      "valid_csi": 144445
+    },
+    {
+      "csi_candidates": 55772,
+      "heartbeats": 280,
+      "hour_local": "2026-08-13T17:00:00+03:00",
+      "malformed_csi": 1,
+      "mean_csi_per_second_nominal_hour": 15.491944444444444,
+      "rssi": {
+        "max": -71,
+        "mean": -77.24405156801888,
+        "min": -96,
+        "n": 55771,
+        "stddev": 1.7236254705789673
+      },
+      "sampled_csi_mean_amplitude": {
+        "max": 28.832759804452262,
+        "mean": 21.961411892127842,
+        "min": 10.717817304543951,
+        "n": 557,
+        "stddev": 5.954485324820862
+      },
+      "sampled_csi_rms": {
+        "max": 36.34029701997495,
+        "mean": 27.105866445762402,
+        "min": 13.74857947207638,
+        "n": 557,
+        "stddev": 8.235223571740852
+      },
+      "total_records": 56052,
+      "valid_csi": 55771
+    }
+  ],
+  "identity": {
+    "boot_epochs": {
+      "1": 17267
+    },
+    "channels": {
+      "2": 2861493
+    },
+    "connection_epochs": {
+      "1": 2829488,
+      "2": 49299
+    },
+    "firmware_versions": {
+      "1.0.2": 17266
+    },
+    "macs": {
+      "02:00:00:00:00:01": 2861493
+    },
+    "profile_records": 0,
+    "sessions": {
+      "public-session-20260812": 2878787
+    }
+  },
+  "integrity": {
+    "checked_files": 294,
+    "failures": [],
+    "ok": true
+  },
+  "radio": {
+    "first_word_invalid_counts": {
+      "0": 2861493
+    },
+    "noise_floor_dbm": {
+      "max": -99,
+      "mean": -99.0,
+      "min": -99,
+      "n": 2861493,
+      "stddev": 0.0
+    },
+    "rssi_dbm": {
+      "max": -69,
+      "mean": -75.66002153420186,
+      "min": -96,
+      "n": 2861493,
+      "stddev": 1.0738284752916085
+    },
+    "rx_state_counts": {
+      "0": 2861493
+    },
+    "sampled_csi_mean_amplitude": {
+      "max": 28.832759804452262,
+      "mean": 14.278697472874663,
+      "min": 10.302154135788332,
+      "n": 28595,
+      "stddev": 1.6782954992284
+    },
+    "sampled_csi_rms": {
+      "max": 36.34029701997495,
+      "mean": 17.19639663681026,
+      "min": 13.085953824616682,
+      "n": 28595,
+      "stddev": 2.2153810611976152
+    }
+  },
+  "records": {
+    "envelope_json_errors": 0,
+    "feature_sample_every_envelopes": 100,
+    "feature_sample_parse_errors": 0,
+    "fully_validated_feature_samples": 28595,
+    "malformed_csi": 16,
+    "malformed_csi_fraction": 5.591455417403894e-06,
+    "malformed_examples": [
+      {
+        "chunk": "chunk-00000-20260812t142322z.ndjson.gz",
+        "line": 1,
+        "raw_prefix": "CSI_DATA,9127,02:00:00:00:00:01,-76,11,1,0,0,1,1,0,0,0,0,-99,0,2CSI_DATA,19352,02:00:00:00:00:01,-77,11,1,0,0,1,1,0,0,0,0,-99,0,2,0,663633832,0,83,0,256,0,\"[0,0,-7,18,-6,17,-5,14,-3,11,-2,8,0,5,1,1,2,-3,2,-7,2,-10,2,-14,1,-17,1,-19,0,-21,0,-22,0,-22,-1,-22,-1,-20,-1,-18,-1,-15,-2,-11,-2,-8,-3,-4,-3,",
+        "reason": "field-count:41",
+        "source_sequence": 1,
+        "wall_time_ns": 1786544602153086868
+      },
+      {
+        "chunk": "chunk-00055-20260812t185823z.ndjson.gz",
+        "line": 1879,
+        "raw_prefix": "CSI_DATA,563654,02:00:00:00:00:01,-75,11,1,2,0,1,1,0,0,0,0,-99,0,2,0,35694528,0,83,0,256,0,\"[0,0,-4,17,-3,16,-2,14,-1,11,-1,8,-1,4,-2,1,-3,-3,-5,-6,-7,-9,-9,-11,-12,-12,-14,-13,-16,-13,-17,-13,-18,-13,-18,-12,-17,-11,-15,-9,-13,-8,-10,-6,-7,-5,-3,-4,0,-3,3,-1,6,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+        "reason": "payload-brackets",
+        "source_sequence": 547566,
+        "wall_time_ns": 1786561154592958488
+      },
+      {
+        "chunk": "chunk-00058-20260812t191323z.ndjson.gz",
+        "line": 2813,
+        "raw_prefix": "CSI_DATA,597541,02:00:00:00:00:01,-75,11,1,2,0,1,1,0,0,0,0,-99,0,2,0,964504631,0,83,0,256,0,\"[0,0,-6,-18,-7,-17,-7,-14,-6,-11,-4,-8,-2,-5,0,-2,3,0,6,2,9,3,13,4,16,4,18,4,20,4,21,3,22,2,21,1,20,1,17,0,15,0,11,0,7,0,3,1,0,2,-4,2,-6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,5,-2,5,-4,6,-6,7,-8,7",
+        "reason": "payload-brackets",
+        "source_sequence": 581638,
+        "wall_time_ns": 1786562083376839068
+      },
+      {
+        "chunk": "chunk-00235-20260813t095828z.ndjson.gz",
+        "line": 1472,
+        "raw_prefix": "CSI_DATA,2317654,02:00:00:00:00:01,-78,11,1,0,0,1,1,0,0,0,0,-99,0,2,0,-1786410429,0,83,0,256,0,\"[0,0,1,-23,1,-22,1,-21,0,-19,0,-16,-1,-13,0,-10,0,-6,0,-1,1,3,3,7,4,11,5,15,7,18,9,20,9,21,10,22CSI_DATA,2317704,02:00:00:00:00:01,-78,11,1,0,0,1,1,0,0,0,0,-99,0,2,0,-1784135416,0,83,0,256,0,\"[0,0,-12,16,",
+        "reason": "field-count:280",
+        "source_sequence": 2312174,
+        "wall_time_ns": 1786615166679724087
+      },
+      {
+        "chunk": "chunk-00235-20260813t095828z.ndjson.gz",
+        "line": 2383,
+        "raw_prefix": "CSI_DATA,2318609,02:00:00:00:00:01,-77,11,1,0,0,1,1,0,0,0,0,-99,0,2,0,-1751060091,0,83,0,256,0,\"[0,0,10,17,10,16,10,15,9,13,7,10,6,7,3,4,0,1,-3,-2,-6,-4,-9,-6,-12,-7,-16,-9,-18,-9,-21,-10,-22,CSI_DATA,2318778,02:00:00:00:00:01,-78,11,1,0,0,1,1,0,0,0,0,-99,0,2,0,-1744481897,0,83,0,256,0,\"[0,0,-20,5,-",
+        "reason": "field-count:280",
+        "source_sequence": 2313085,
+        "wall_time_ns": 1786615206330146776
+      },
+      {
+        "chunk": "chunk-00235-20260813t095828z.ndjson.gz",
+        "line": 6731,
+        "raw_prefix": "CSI_DATA,2323095,02:00:00:00:00:01,-77,11,1,2,0,1,1,0,0,0,0,-99,0,2,0,-1583260378,0,83,0,256,0,\"[0,0,-9,-19,-10,-19,-10,-18,-9,-16,-7,-13,-5,-10,-4,-7,-1,-4,2,-1,5,2,8,4,11,7,14,8,17,9,19,10,2CSI_DATA,2323107,02:00:00:00:00:01,-77,11,1,2,0,1,1,0,0,0,0,-99,0,2,0,-1582883597,0,83,0,256,0,\"[0,0,10,-19,",
+        "reason": "field-count:280",
+        "source_sequence": 2317433,
+        "wall_time_ns": 1786615367925009828
+      },
+      {
+        "chunk": "chunk-00253-20260813t112829z.ndjson.gz",
+        "line": 4605,
+        "raw_prefix": "CSI_DATA,2478910,02:00:00:00:00:01,-78,11,1,2,0,1,1,0,0,0,0,-99,0,2,0,-584591210,0,83,0,256,0,\"[0,0,-6,17,-5,17,-4,17,-3,15,-2,12,-1,9,-1,6,-2,2,-3,-1,-5,-4,-7,-7,-9,-10,-12,-12,-14,-14,-16,-15,-18,-15,-19,-15,-19,-15,-19,-14,-17,-13,-14,-12,-11,-10,-8,-9,-4,-8,-1,-6,2,-5,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+        "reason": "payload-brackets",
+        "source_sequence": 2474282,
+        "wall_time_ns": 1786620662021969063
+      },
+      {
+        "chunk": "chunk-00255-20260813t113829z.ndjson.gz",
+        "line": 964,
+        "raw_prefix": "CSI_DATA,2493308,02:00:00:00:00:01,-78,11,1,2,0,1,1,0,0,0,0,-99,0,2,0,-104162786,0,83,0,256,0,\"[0,0,8,-17,7,-18,6,-17,5,-15,3,-13,2,-10,1,-7,0,-3,0,0,1,4,1,8,2,12,4,15,5,17,6,19,7,21,8,21,8,21,8,20,7,19,5,16,3,13,1,10,-1,7,-3,3,-5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2,2,-3,1,-4,1,-6,1,-8,",
+        "reason": "payload-brackets",
+        "source_sequence": 2488776,
+        "wall_time_ns": 1786621142436365186
+      },
+      {
+        "chunk": "chunk-00256-20260813t114329z.ndjson.gz",
+        "line": 5122,
+        "raw_prefix": "CSI_DATA,2505511,02:00:00:00:00:01,-78,11,1,2,0,1,1,0,0,0,0,-99,0,2,0,457853391,0,83,0,256,0,\"[0,0,-6,16,-5,17,-4,16,-3,14,-2,12,-1,9,0,6,-1,2,-1,-2,-1,-5,-2,-9,-4,-12,-5,-15,-6,-18,-8,-20,-9,-22,-9,-23,-9,-23,-8,-22,-7,-20,-6,-18,-4,-15,-2,-12,1,-9,2,-5,4,-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,",
+        "reason": "payload-brackets",
+        "source_sequence": 2501092,
+        "wall_time_ns": 1786621704435604170
+      },
+      {
+        "chunk": "chunk-00258-20260813t115330z.ndjson.gz",
+        "line": 5702,
+        "raw_prefix": "CSI_DATA,2516442,02:00:00:00:00:01,-75,11,1,2,0,1,1,0,0,0,0,-99,0,2,0,1034003628,0,83,0,256,0,\"[0,0,-10,10,-10,12,-11,14,-11,15,-11,15,-10,15,-9,15,-8,15,-7,14,-6,12,-5,9,-5,7,-6,5,-7,2,-8,-1,-9,-4,-9,-6,-9,-8,-10,-11,-11,-12,-12,-14,-11,-16,-10,-16,-9,-16,-8,-15,-6,-14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+        "reason": "payload-brackets",
+        "source_sequence": 2512137,
+        "wall_time_ns": 1786622280567418815
+      },
+      {
+        "chunk": "chunk-00259-20260813t115830z.ndjson.gz",
+        "line": 3675,
+        "raw_prefix": "CSI_DATA,2520619,02:00:00:00:00:01,-76,11,1,0,0,1,1,0,0,0,0,-99,0,2,0,1283135116,0,83,0,256,0,\"[0,0,-9,10,-8,10,-7,7,-6,4,-5,1,-5,-2,-5,-4,-6,-7,-7,-9,-9,-11,-10,-13,-11,-14,-12,-14,-13,-14,-14,-14,-14,-13,-14,-13,-12,-13,-11,-12,-8,-11,-5,-11,-2,-10,1,-9,4,-8,6,-7,8,-7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+        "reason": "payload-brackets",
+        "source_sequence": 2516363,
+        "wall_time_ns": 1786622529691510481
+      },
+      {
+        "chunk": "chunk-00259-20260813t115830z.ndjson.gz",
+        "line": 3719,
+        "raw_prefix": "CSI_DATA,2520662,02:00:00:00:00:01,-76,11,1,0,0,1,1,0,0,0,0,-99,0,2,0,1286240614,0,83,0,256,0,\"[0,0,4,-16,4,-13,4,-10,4,-7,4,-4,4,-1,5,1,7,3,8,5,10,6,12,7,14,7,15,8,16,8,17,8,17,8,16,7,15,7,13,7,11,7,8,7,5,8,1,8,-2,9,-4,9,-6,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-4,-6,-6,-7,-8,-7,-11,-6,-13,",
+        "reason": "payload-brackets",
+        "source_sequence": 2516407,
+        "wall_time_ns": 1786622532797498032
+      },
+      {
+        "chunk": "chunk-00264-20260813t122331z.ndjson.gz",
+        "line": 18469,
+        "raw_prefix": "CSI_DATA,2599088,02:00:00:00:00:01,-75,11,1,0,0,1,1,0,0,0,0,-99,0,2,0,-1496709419,0,83,0,256,0,\"[0,0,-11,-12,-8,-10,-6,-9,-3,-7,0,-6,3,-5,5,-5,8,-5,11,-6,13,-7,14,-8,15,-9,16,-10,16,-11,16,-11CSI_DATA,2599093,02:00:00:00:00:01,-75,11,1,2,0,1,1,0,0,0,0,-99,0,2,0,-1496616293,0,83,0,256,0,\"[0,0,6,13,4,",
+        "reason": "field-count:280",
+        "source_sequence": 2595130,
+        "wall_time_ns": 1786624043860148960
+      },
+      {
+        "chunk": "chunk-00267-20260813t123832z.ndjson.gz",
+        "line": 95,
+        "raw_prefix": "CSI_DATA,2629697,02:00:00:00:00:01,-74,11,1,2,0,1,1,0,0,0,0,-99,0,2,0,-823897747,0,83,0,256,0,\"[0,0,-15,-3,-12,-4,-8,-4,-4,-4,-1,-5,2,-6,5,-7,7,-9,9,-10,10,-12,11,-13,12,-14,12,-15,12,-15,11,-15,11,-14,10,-12,9,-10,8,-8,8,-5,7,-2,6,1,5,4,5,7,4,9,3,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,9,",
+        "reason": "payload-brackets",
+        "source_sequence": 2625868,
+        "wall_time_ns": 1786624717559248325
+      },
+      {
+        "chunk": "chunk-00275-20260813t131832z.ndjson.gz",
+        "line": 8610,
+        "raw_prefix": "CSI_DATA,2734399,02:00:00:00:00:01,-73,11,1,2,0,1,1,0,0,0,0,-99,0,2,0,1796429404,0,83,0,256,0,\"[0,0,-15,-3,-11,-4,-7,-5,-3,-5,0,-5,4,-6,7,-7,9,-9,11,-10,12,-11,13,-12,14,-13,14,-14,13,-14,12,-14,11,-13,10,-11,9,-9,8,-7,7,-4,5,-1,4,1,3,4,2,7,1,9,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,1,",
+        "reason": "payload-brackets",
+        "source_sequence": 2731085,
+        "wall_time_ns": 1786627337807432695
+      },
+      {
+        "chunk": "chunk-00283-20260813t135832z.ndjson.gz",
+        "line": 10246,
+        "raw_prefix": "CSI_DATA,2832338,02:00:00:00:00:01,-78,11,1,4,0,1,1,0,0,0,0,-99,CSI_DATA,2832405,02:00:00:00:00:01,-79,11,1,4,0,1,1,0,0,0,0,-99,0,2,0,-52785989,0,83,0,256,0,\"[0,0,13,5,14,4,16,3,17,3,18,3,18,2,18,0,17,-1,16,-3,15,-3,13,-3,12,-2,10,-1,9,1,8,3,8,5,9,7,9,9,10,10,10,11,11,12,11,12,11,12,11,12,10,11,10,1",
+        "reason": "field-count:40",
+        "source_sequence": 2829489,
+        "wall_time_ns": 1786629782486886885
+      }
+    ],
+    "malformed_reasons": {
+      "field-count:280": 4,
+      "field-count:40": 1,
+      "field-count:41": 1,
+      "payload-brackets": 10
+    },
+    "total_envelopes": 2878787,
+    "types": {
+      "csi_candidate": 2861509,
+      "other:": 2,
+      "other:-5": 2,
+      "other:0": 2,
+      "other:2": 1,
+      "other:25": 1,
+      "other:5": 2,
+      "other:f7:42:42": 1,
+      "timing_heartbeat": 17267
+    },
+    "valid_csi": 2861493
+  },
+  "run": {
+    "chunk_count": 288,
+    "collector_final": {
+      "sensor-node-b": {
+        "compressed_bytes": 888407717,
+        "connections": 2,
+        "current_chunk": null,
+        "errors": 1,
+        "last_record_age_seconds": 0.023819673,
+        "last_record_wall_time": "2026-08-13T14:23:21.771Z",
+        "records": 2878787,
+        "source_id": "sensor-node-b",
+        "status": "stopped"
+      }
+    },
+    "ended_utc": "2026-08-13T14:23:21.795Z",
+    "finish_reason": "duration-complete",
+    "observed_first_record_utc": "2026-08-12T14:23:22.153087+00:00",
+    "observed_last_record_utc": "2026-08-13T14:23:21.771587+00:00",
+    "observed_span_seconds": 86399.618499826,
+    "raw_compressed_bytes": 888407717,
+    "run_id": "run-20260812t142321z-shop-natural-occupancy-24h",
+    "scheduled_duration_seconds": 86400,
+    "source_id": "sensor-node-b",
+    "start_utc": "2026-08-12T14:23:21.763Z",
+    "target_end_utc": "2026-08-13T14:23:21.763Z"
+  },
+  "schema_version": 1,
+  "timing": {
+    "nonwrap_timestamp_regressions": 0,
+    "timestamp_wraps": 20
+  }
+}
