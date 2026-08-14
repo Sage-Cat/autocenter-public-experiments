@@ -6,6 +6,21 @@
   "topology": "single-sensor-single-collector",
   "condition": "natural-production-network",
   "status": "published-claim-grade-for-stability-and-timing-only",
+  "provenance": {
+    "researcher_role": "independent individual researcher",
+    "funding": "self-funded",
+    "sponsors": [],
+    "commercial_funding": false
+  },
+  "human_context": {
+    "site_permission": "operational-area measurement permitted by the site operator",
+    "participant_recruitment": false,
+    "participant_level_identifiers": false,
+    "human_activity_labels": false,
+    "audio_or_video_recording": false,
+    "network_payload_collection": false,
+    "public_interpretation": "unlabelled aggregate radio-environment context only"
+  },
   "source_bundle": "experiments/runs/run-20260812t142321z-shop-natural-occupancy-24h",
   "collection": {
     "mode": "unlabelled-natural-operation",

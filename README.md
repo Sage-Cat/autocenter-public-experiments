@@ -15,6 +15,8 @@ observed as natural interference and was not reconfigured for these runs.
 - [Datasets](datasets/): complete sanitized experiment bundles.
 - [Dataset policy](docs/dataset-policy/policy.md): inclusion, privacy, and
   claim-boundary rules.
+- [Provenance and privacy](docs/provenance-and-privacy.md): funding,
+  independence, human-context, and privacy-audit disclosure.
 - [Architecture](docs/architecture/overview.md): measured system and data flow.
 - [Structure](docs/structure/repository-structure.md): repository layout.
 - [Scripts](scripts/): deterministic public sanitizers.
@@ -66,3 +68,11 @@ concrete SSIDs, IP/MAC/BSSID values, hostnames, board serials, device paths,
 exact site identity, and private control arguments are excluded or replaced by
 stable public labels. See the dataset policy and each bundle's claim boundary
 before using the data in a publication.
+
+## Independence and funding
+
+These experiments were designed, operated, and published by an independent
+individual researcher. They were self-funded and received no sponsor, grant,
+commercial funding, or sponsor-directed input. References to hardware,
+software, standards, or vendors identify the evaluated technical components
+only and do not imply sponsorship or endorsement.

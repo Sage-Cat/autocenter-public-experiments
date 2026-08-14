@@ -2,6 +2,13 @@
   "repository": "autocenter-public-experiments",
   "series": "AutoCenter operational sensing",
   "generated_at": "2026-08-14T16:10:55+03:00",
+  "provenance": {
+    "researcher_role": "independent individual researcher",
+    "funding": "self-funded",
+    "sponsors": [],
+    "commercial_funding": false,
+    "sponsor_directed_input": false
+  },
   "datasets": [
     {
       "bundle_id": "ac01_natural_operation_baseline_20260812T142321Z",
