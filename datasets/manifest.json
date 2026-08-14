@@ -1,0 +1,93 @@
+{
+  "repository": "autocenter-public-experiments",
+  "series": "AutoCenter operational sensing",
+  "generated_at": "2026-08-14T16:10:55+03:00",
+  "datasets": [
+    {
+      "bundle_id": "ac01_natural_operation_baseline_20260812T142321Z",
+      "program_id": "AC01",
+      "status": "published-claim-grade-for-stability-and-timing-only",
+      "source_bundle": "experiments/runs/run-20260812t142321z-shop-natural-occupancy-24h",
+      "included_surfaces": [
+        "metadata.json",
+        "runbook.md",
+        "operator_notes.md",
+        "serial/chunks/*.ndjson.gz",
+        "logs/chunks.ndjson",
+        "logs/collector_events.ndjson.gz",
+        "logs/collector_host_health.ndjson.gz",
+        "analysis/natural_operation/summary.md",
+        "analysis/natural_operation/summary.json",
+        "analysis/natural_operation/hourly.csv",
+        "analysis/natural_operation/malformed_examples.ndjson",
+        "qc_summary.md",
+        "experiment_report.md",
+        "SHA256SUMS"
+      ],
+      "excluded_surfaces": [
+        "private collector configuration and status containing host or device paths",
+        "site photographs and exact building identity",
+        "concrete SSID, BSSID, MAC, IP, board serial, device path, hostname, boot UUID, and local run path",
+        "unlisted private analysis and workflow artifacts"
+      ],
+      "sanitization_summary": [
+        "verified every source checksum before publication and preserved every measurement envelope, collector event, and host-health record",
+        "replaced source, session, network, collector-boot, and interface identifiers with stable public labels",
+        "preserved CSI values, radio fields, local and ingest timing, sequence numbers, firmware counters, connection epochs, and failure timing",
+        "bounded claims to natural-operation stability, continuity, rollover handling, and failure discrimination because no occupancy or activity labels exist"
+      ]
+    },
+    {
+      "bundle_id": "ac02_failure_aware_adaptive_prplos_20260813T173202Z",
+      "program_id": "AC02",
+      "status": "published-claim-grade-for-timing-failure-and-policy-accounting",
+      "source_bundle": "experiments/runs/run-20260813t173202z-shop-adaptive-mean-to-1400",
+      "included_surfaces": [
+        "metadata.json",
+        "runbook.md",
+        "operator_notes.md",
+        "metadata/node-*-manifest.json",
+        "metadata/node-*-final.json",
+        "metadata/method-configuration.json",
+        "metadata/firmware-manifest.json",
+        "serial/node-*/chunks/*.ndjson.gz*",
+        "logs/node-*-chunks.ndjson",
+        "logs/node-*-collector-events.ndjson.gz",
+        "logs/node-*-host-health.ndjson.gz",
+        "logs/node-*-management-link.ndjson.gz",
+        "controller/decisions.ndjson.gz",
+        "controller/network-context.ndjson.gz",
+        "controller/prpl-context.ndjson.gz",
+        "controller/hardware-reset-campaign-ledger.ndjson.gz",
+        "controller/aborted-failure-campaign-ledger.ndjson.gz",
+        "controller/aborted-usb-power-campaign.ndjson.gz",
+        "controller/relabelled-usb-host-campaign.ndjson.gz",
+        "analysis/adaptive_run/summary.json",
+        "analysis/adaptive_run/summary.md",
+        "analysis/hardware-reset-campaign-summary.json",
+        "analysis/timing-ablation-combined.json",
+        "analysis/timing-ablation-combined.md",
+        "analysis/failed-method-block-attempt.json",
+        "sanitization-accounting.json",
+        "qc_summary.md",
+        "experiment_report.md",
+        "SHA256SUMS"
+      ],
+      "excluded_surfaces": [
+        "private collector and controller configuration with infrastructure paths",
+        "raw prplOS board and radio snapshots and concrete device state",
+        "private commands, SSH material, credentials, tokens, addresses, device paths, and hostnames",
+        "site photographs, exact building identity, and concrete production-network identifiers",
+        "unlisted private analysis and workflow artifacts",
+        "ESP32-C5 and 5 GHz CSI surfaces because no such data was captured"
+      ],
+      "sanitization_summary": [
+        "verified all source-checksummed files and preserved every readable finalized and interrupted measurement envelope",
+        "replaced source, session, boot, network, hostname, address, interface, run, and device identifiers with functional public labels",
+        "retained controller decisions, parsed prplOS context, and fault timing while removing raw device snapshots and private command fields",
+        "retained failed and aborted attempts for auditability and excluded them from completed-experiment claims",
+        "bounded claims to timing and failure discrimination, reset recovery, policy accounting, and read-only prplOS integration"
+      ]
+    }
+  ]
+}
