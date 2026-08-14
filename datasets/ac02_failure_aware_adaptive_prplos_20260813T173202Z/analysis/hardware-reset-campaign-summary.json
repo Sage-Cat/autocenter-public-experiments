@@ -1,0 +1,224 @@
+{
+  "campaign": {
+    "decision_count": 171,
+    "duration_seconds": 321.949853901,
+    "end_wall_time_ns": 1786643517085884559,
+    "start_wall_time_ns": 1786643195136030658,
+    "trial_count": 10
+  },
+  "generated_at": "2026-08-13T17:52:11Z",
+  "groups": {
+    "esp-hardware-reset:recommend": {
+      "detected": 10,
+      "detection_rate": 1.0,
+      "invalid_timing_decisions_admitted": 0,
+      "metrics": {
+        "detection_latency_seconds": {
+          "bootstrap_median_95ci": [
+            2.5308357829999997,
+            2.7435895895
+          ],
+          "max": 2.881592533,
+          "median": 2.6721310785,
+          "min": 2.41461771,
+          "n": 10,
+          "p25": 2.5696752962500002,
+          "p75": 2.7204906685,
+          "p95": 2.84721776605
+        },
+        "full_quorum_recovery_latency_seconds": {
+          "bootstrap_median_95ci": [
+            6.519353221499999,
+            6.742750089
+          ],
+          "max": 6.860561904,
+          "median": 6.670197364,
+          "min": 6.41198546,
+          "n": 10,
+          "p25": 6.55618731875,
+          "p75": 6.71968060025,
+          "p95": 6.8360988761999995
+        },
+        "system_intervention_latency_seconds": {
+          "bootstrap_median_95ci": null,
+          "max": null,
+          "median": null,
+          "min": null,
+          "n": 0,
+          "p25": null,
+          "p75": null,
+          "p95": null
+        },
+        "timing_recovery_latency_seconds": {
+          "bootstrap_median_95ci": [
+            2.5308357829999997,
+            2.7435895895
+          ],
+          "max": 2.881592533,
+          "median": 2.6721310785,
+          "min": 2.41461771,
+          "n": 10,
+          "p25": 2.5696752962500002,
+          "p75": 2.7204906685,
+          "p95": 2.84721776605
+        }
+      },
+      "trials": 10
+    }
+  },
+  "individual_trials": [
+    {
+      "condition": "recommend",
+      "detected": true,
+      "detection_latency_seconds": 2.458205766,
+      "fault_type": "esp-hardware-reset",
+      "full_quorum_recovery_latency_seconds": 6.460141618,
+      "invalid_timing_decisions_admitted": 0,
+      "randomized_sequence": 1,
+      "source_id": "sensor-node-a",
+      "stable_wall_time_ns": 1786643208199364158,
+      "start_wall_time_ns": 1786643199741031250,
+      "system_intervention_latency_seconds": null,
+      "timing_recovery_latency_seconds": 2.458205766,
+      "trial_id": "reset-a-04"
+    },
+    {
+      "condition": "recommend",
+      "detected": true,
+      "detection_latency_seconds": 2.66228714,
+      "fault_type": "esp-hardware-reset",
+      "full_quorum_recovery_latency_seconds": 6.66109417,
+      "invalid_timing_decisions_admitted": 0,
+      "randomized_sequence": 2,
+      "source_id": "sensor-node-b",
+      "stable_wall_time_ns": 1786643240200996084,
+      "start_wall_time_ns": 1786643231538418584,
+      "system_intervention_latency_seconds": null,
+      "timing_recovery_latency_seconds": 2.66228714,
+      "trial_id": "reset-b-04"
+    },
+    {
+      "condition": "recommend",
+      "detected": true,
+      "detection_latency_seconds": 2.692112305,
+      "fault_type": "esp-hardware-reset",
+      "full_quorum_recovery_latency_seconds": 6.679300558,
+      "invalid_timing_decisions_admitted": 0,
+      "randomized_sequence": 3,
+      "source_id": "sensor-node-b",
+      "stable_wall_time_ns": 1786643272190298090,
+      "start_wall_time_ns": 1786643263508493515,
+      "system_intervention_latency_seconds": null,
+      "timing_recovery_latency_seconds": 2.692112305,
+      "trial_id": "reset-b-05"
+    },
+    {
+      "condition": "recommend",
+      "detected": true,
+      "detection_latency_seconds": 2.805204162,
+      "fault_type": "esp-hardware-reset",
+      "full_quorum_recovery_latency_seconds": 6.80619962,
+      "invalid_timing_decisions_admitted": 0,
+      "randomized_sequence": 4,
+      "source_id": "sensor-node-b",
+      "stable_wall_time_ns": 1786643304194062009,
+      "start_wall_time_ns": 1786643295393965309,
+      "system_intervention_latency_seconds": null,
+      "timing_recovery_latency_seconds": 2.805204162,
+      "trial_id": "reset-b-02"
+    },
+    {
+      "condition": "recommend",
+      "detected": true,
+      "detection_latency_seconds": 2.558411795,
+      "fault_type": "esp-hardware-reset",
+      "full_quorum_recovery_latency_seconds": 6.54872815,
+      "invalid_timing_decisions_admitted": 0,
+      "randomized_sequence": 5,
+      "source_id": "sensor-node-b",
+      "stable_wall_time_ns": 1786643336189146160,
+      "start_wall_time_ns": 1786643327641604792,
+      "system_intervention_latency_seconds": null,
+      "timing_recovery_latency_seconds": 2.558411795,
+      "trial_id": "reset-b-01"
+    },
+    {
+      "condition": "recommend",
+      "detected": true,
+      "detection_latency_seconds": 2.6034658,
+      "fault_type": "esp-hardware-reset",
+      "full_quorum_recovery_latency_seconds": 6.578564825,
+      "invalid_timing_decisions_admitted": 0,
+      "randomized_sequence": 6,
+      "source_id": "sensor-node-a",
+      "stable_wall_time_ns": 1786643368190622618,
+      "start_wall_time_ns": 1786643359609918753,
+      "system_intervention_latency_seconds": null,
+      "timing_recovery_latency_seconds": 2.6034658,
+      "trial_id": "reset-a-02"
+    },
+    {
+      "condition": "recommend",
+      "detected": true,
+      "detection_latency_seconds": 2.881592533,
+      "fault_type": "esp-hardware-reset",
+      "full_quorum_recovery_latency_seconds": 6.860561904,
+      "invalid_timing_decisions_admitted": 0,
+      "randomized_sequence": 7,
+      "source_id": "sensor-node-a",
+      "stable_wall_time_ns": 1786643400188291088,
+      "start_wall_time_ns": 1786643391330137738,
+      "system_intervention_latency_seconds": null,
+      "timing_recovery_latency_seconds": 2.881592533,
+      "trial_id": "reset-a-01"
+    },
+    {
+      "condition": "recommend",
+      "detected": true,
+      "detection_latency_seconds": 2.681975017,
+      "fault_type": "esp-hardware-reset",
+      "full_quorum_recovery_latency_seconds": 6.688680899,
+      "invalid_timing_decisions_admitted": 0,
+      "randomized_sequence": 8,
+      "source_id": "sensor-node-b",
+      "stable_wall_time_ns": 1786643432206980785,
+      "start_wall_time_ns": 1786643423528126076,
+      "system_intervention_latency_seconds": null,
+      "timing_recovery_latency_seconds": 2.681975017,
+      "trial_id": "reset-b-03"
+    },
+    {
+      "condition": "recommend",
+      "detected": true,
+      "detection_latency_seconds": 2.41461771,
+      "fault_type": "esp-hardware-reset",
+      "full_quorum_recovery_latency_seconds": 6.41198546,
+      "invalid_timing_decisions_admitted": 0,
+      "randomized_sequence": 9,
+      "source_id": "sensor-node-a",
+      "stable_wall_time_ns": 1786643464201036791,
+      "start_wall_time_ns": 1786643455789134853,
+      "system_intervention_latency_seconds": null,
+      "timing_recovery_latency_seconds": 2.41461771,
+      "trial_id": "reset-a-05"
+    },
+    {
+      "condition": "recommend",
+      "detected": true,
+      "detection_latency_seconds": 2.729950123,
+      "fault_type": "esp-hardware-reset",
+      "full_quorum_recovery_latency_seconds": 6.730013834,
+      "invalid_timing_decisions_admitted": 0,
+      "randomized_sequence": 10,
+      "source_id": "sensor-node-a",
+      "stable_wall_time_ns": 1786643496203619959,
+      "start_wall_time_ns": 1786643487473492864,
+      "system_intervention_latency_seconds": null,
+      "timing_recovery_latency_seconds": 2.729950123,
+      "trial_id": "reset-a-03"
+    }
+  ],
+  "interpretation_boundary": "Latencies measure controller evidence validity, quorum, and rate actuation. They do not measure human-activity classification accuracy.",
+  "method": "failure-aware-affine-v1-plus-AQ-MC-SACM",
+  "schema_version": 1
+}

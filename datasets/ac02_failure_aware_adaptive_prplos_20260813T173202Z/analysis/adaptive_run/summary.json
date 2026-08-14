@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "run_window": {
+    "started_utc": "2026-08-13T17:32:02.154Z",
+    "target_end_utc": "2026-08-14T11:00:01.154Z",
+    "scheduled_seconds": 62879,
+    "controller_observed_seconds": 62876.571921368
+  },
+  "finalized_measurement_surface": {
+    "sensor-node-a": {
+      "observed_span_seconds": 62814.783853553,
+      "finalized_chunks": 208,
+      "retained_interrupted_chunks": 7,
+      "envelopes": 2502497,
+      "valid_csi": 2489983,
+      "malformed_csi": 2,
+      "source_sequence_missing": 0,
+      "source_sequence_duplicates": 0,
+      "source_sequence_regressions": 0,
+      "csi_sequence_estimated_missing": 246,
+      "csi_sequence_regressions": 3,
+      "timestamp_wraps": 13,
+      "nonwrap_timestamp_regressions": 3,
+      "transport_disconnects": 5,
+      "longest_valid_csi_gap_seconds": 505.888769006,
+      "mean_rssi_dbm": -67.09904645935555,
+      "collector_health_samples": 6271,
+      "collector_temperature_max_c": 66.1
+    },
+    "sensor-node-b": {
+      "observed_span_seconds": 62814.738084696,
+      "finalized_chunks": 208,
+      "retained_interrupted_chunks": 7,
+      "envelopes": 2521966,
+      "valid_csi": 2509492,
+      "malformed_csi": 2,
+      "source_sequence_missing": 0,
+      "source_sequence_duplicates": 0,
+      "source_sequence_regressions": 0,
+      "csi_sequence_estimated_missing": 230,
+      "csi_sequence_regressions": 3,
+      "timestamp_wraps": 13,
+      "nonwrap_timestamp_regressions": 3,
+      "transport_disconnects": 2,
+      "longest_valid_csi_gap_seconds": 442.229091471,
+      "mean_rssi_dbm": -76.87388483405833,
+      "collector_health_samples": 6265,
+      "collector_temperature_max_c": 60.6
+    },
+    "aggregate": {
+      "finalized_chunks": 416,
+      "retained_interrupted_chunks": 14,
+      "envelopes": 5024463,
+      "valid_csi": 4999475,
+      "malformed_csi": 4,
+      "timestamp_wraps": 26,
+      "csi_sequence_estimated_missing": 476
+    }
+  },
+  "timing_ablation": {
+    "scope": "all readable finalized and interrupted chunks",
+    "node_hours": 34.932225768411946,
+    "planned_hardware_reset_trials": 10,
+    "observed_boot_epoch_transitions": 14,
+    "timestamp_wraps": 26,
+    "methods": {
+      "failure-aware": {
+        "true_positive": 14,
+        "false_positive": 3,
+        "false_negative": 0,
+        "precision": 0.8235294117647058,
+        "recall": 1.0,
+        "false_reset_rate_per_node_hour": 0.0858805854482024
+      },
+      "rollover-aware": {
+        "true_positive": 12,
+        "false_positive": 3,
+        "false_negative": 2,
+        "precision": 0.8,
+        "recall": 0.8571428571428571,
+        "false_reset_rate_per_node_hour": 0.0858805854482024
+      },
+      "naive-reset-on-regression": {
+        "true_positive": 12,
+        "false_positive": 29,
+        "false_negative": 2,
+        "precision": 0.2926829268292683,
+        "recall": 0.8571428571428571,
+        "false_reset_rate_per_node_hour": 0.8301789926659565
+      }
+    }
+  },
+  "controlled_hardware_reset_campaign": {
+    "trials": 10,
+    "detected": 10,
+    "detection_rate": 1.0,
+    "median_detection_seconds": 2.6721310785,
+    "median_timing_recovery_seconds": 2.6721310785,
+    "median_full_quorum_recovery_seconds": 6.670197364,
+    "maximum_detection_seconds": 2.881592533,
+    "maximum_full_quorum_recovery_seconds": 6.860561904,
+    "invalid_timing_decisions_admitted": 0,
+    "mode": "recommend"
+  },
+  "controller": {
+    "in_window_decisions": 31365,
+    "mode_counts": {
+      "apply": 32,
+      "recommend": 31333
+    },
+    "quorum_counts": {
+      "0": 39,
+      "1": 275,
+      "2": 31051
+    },
+    "sacm_action_counts": {
+      "accept": 88,
+      "fallback": 39,
+      "hold": 31238
+    },
+    "hold_ratio": 0.9959509006854774,
+    "configuration_changes_in_sorted_decision_stream": 112,
+    "mean_predicted_sensing_airtime_percent": 0.6035708271191644,
+    "mean_modeled_qos_penalty_percent": 0.12367109382361798,
+    "predicted_budget_violations": 0,
+    "successful_actuations": 0,
+    "failed_actuator_records": 64,
+    "process_segments": 3,
+    "overlapping_process_time_seconds": 134.319496793,
+    "sensor-node-a_availability_percent": 99.80551570221584,
+    "sensor-node-b_availability_percent": 99.06902598437749
+  },
+  "prplos_context": {
+    "mode": "read-only",
+    "records": 4084,
+    "valid_records": 4084,
+    "radio_channel": 36,
+    "mean_channel_utilization_percent": 10.537463271302663,
+    "minimum_channel_utilization_percent": 4.0,
+    "maximum_channel_utilization_percent": 88.0
+  },
+  "source_damage_accounting": {
+    "recovered_nul_prefixed_records": 6,
+    "recovered_text_prefixed_operator_events": 1,
+    "unrecovered_json_records": 0,
+    "note": "Repairs affect host-health, management-link, context, and event logs; raw private bytes remain immutable."
+  },
+  "claim_boundary": "Supports multi-node timing/failure discrimination, controlled reset detection/recovery, policy budget accounting, and read-only prplOS context integration. It does not establish successful configuration actuation, method-block superiority, C5 or 5 GHz CSI behavior, occupancy/activity accuracy, or causal QoS improvement."
+}

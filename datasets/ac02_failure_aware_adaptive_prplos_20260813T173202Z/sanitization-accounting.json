@@ -1,0 +1,61 @@
+{
+  "aborted-usb-power-campaign.ndjson.gz": 5,
+  "aborted_campaign_ledger_records": 2,
+  "controller_decisions": 32475,
+  "hardware_reset_ledger_records": 73,
+  "network_context_records": 7220,
+  "nodes": {
+    "a": {
+      "chunks": {
+        "chunks": 215,
+        "records": 2528301,
+        "status_counts": {
+          "complete": 208,
+          "incomplete-after-process-interruption": 7
+        }
+      },
+      "events": {
+        "records": 90,
+        "recovered_prefixed_json_lines": 1
+      },
+      "host_health_records": 6271,
+      "management_link_records": 6289,
+      "source_verification": {
+        "checked_files": 222,
+        "reason": "duration-complete"
+      }
+    },
+    "b": {
+      "chunks": {
+        "chunks": 215,
+        "records": 2547906,
+        "status_counts": {
+          "complete": 208,
+          "incomplete-after-process-interruption": 7
+        }
+      },
+      "events": {
+        "records": 82,
+        "recovered_prefixed_json_lines": 0
+      },
+      "host_health_records": 6265,
+      "management_link_records": 6288,
+      "source_verification": {
+        "checked_files": 222,
+        "reason": "duration-complete"
+      }
+    }
+  },
+  "prpl_context_records": 5097,
+  "relabelled-usb-host-campaign.ndjson.gz": 16,
+  "publication_validation": {
+    "compressed_ndjson_parse": "passed",
+    "gzip_integrity": "passed",
+    "public_chunk_ledger_hashes": "passed",
+    "public_record_accounting": "passed",
+    "private_identifier_scan": "passed",
+    "files_over_99_mb": 0,
+    "recovered_auxiliary_records": 7,
+    "unrecovered_auxiliary_records": 0
+  }
+}

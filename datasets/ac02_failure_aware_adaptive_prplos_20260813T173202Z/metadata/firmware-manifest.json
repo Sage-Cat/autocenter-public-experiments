@@ -1,0 +1,24 @@
+{
+  "builds": {
+    "sensor-node-a": {
+      "application_sha256": "f80c28990178afc6427aa9a027b615390c48d34fdb408621fdac03f24d0c8cf3",
+      "bootloader_sha256": "80cb6dc8907c0ccf0a936beb83da821b8b29aa0a8df288c73b73d1e5a5bd2431",
+      "partition_table_sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+    },
+    "sensor-node-b": {
+      "application_sha256": "718e743992849ba4db106826539bd8f5a14330136fbc9969b7965caa972946fe",
+      "bootloader_sha256": "a8379d1f204d1ee86a099c1fe050c147449fc73903582bca8d9e083f6f2c11b5",
+      "partition_table_sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+    }
+  },
+  "esp_idf_version": "v5.5.4",
+  "firmware_version": "1.3.1",
+  "probe_payload_bytes": 512,
+  "runtime_rate_range_hz": [
+    0,
+    50
+  ],
+  "schema_version": 1,
+  "security_boundary": "Generated sdkconfig and application images contain site credentials and are not publication artifacts.",
+  "target": "esp32s3"
+}

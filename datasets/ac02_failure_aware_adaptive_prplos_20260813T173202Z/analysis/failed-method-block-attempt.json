@@ -1,0 +1,62 @@
+{
+  "cooldown_seconds": 20.0,
+  "ended_at": "2026-08-13T15:00:01.705Z",
+  "experiment": "prpl-context-cooperative-sensing-method-blocks",
+  "failure_classification": "precondition-failed-before-active-collection",
+  "phase_seconds": 600.0,
+  "phases": [
+    {
+      "method": "aqmc-only",
+      "sequence": 1,
+      "started_at": "2026-08-13T15:00:00.940Z",
+      "status": "starting"
+    }
+  ],
+  "prpl_precondition": {
+    "age_seconds": 6.857956064,
+    "agent_version": "1.1.0",
+    "associated_device_count": 0,
+    "classification": "prpl-channel-utilization-thresholds-v1",
+    "error_counter_values": [
+      0.0,
+      0.0
+    ],
+    "load": "light",
+    "node_id": "primary-prplos-ap-node",
+    "qos_drop_counter_values": [
+      0.0
+    ],
+    "quality": "measured",
+    "radio_channel_utilization_percent_max": 6.0,
+    "radio_channel_utilization_percent_values": [
+      6.0
+    ],
+    "radio_channels": [
+      36
+    ],
+    "radio_noise_dbm_values": [
+      -92.0
+    ],
+    "received_at": "2026-08-13T14:59:54.078Z",
+    "sampled_epoch_ms": 1778610293000,
+    "sampled_wall_time_ns": 1786633194078296610,
+    "schema_version": 1,
+    "source": "prplos-tr181-agent",
+    "telemetry_valid": true
+  },
+  "randomized_methods": [
+    "aqmc-only",
+    "aqmc-sacm",
+    "static-40",
+    "static-40",
+    "static-40",
+    "aqmc-sacm",
+    "aqmc-only",
+    "aqmc-only",
+    "aqmc-sacm"
+  ],
+  "schema_version": 1,
+  "seed": 20260813,
+  "started_at": "2026-08-13T15:00:00.936Z",
+  "status": "failed"
+}

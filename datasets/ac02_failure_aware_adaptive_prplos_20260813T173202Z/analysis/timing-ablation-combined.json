@@ -1,0 +1,41 @@
+{
+  "ground_truth_boot_epoch_transitions": 14,
+  "ground_truth_reset_profiles": 14,
+  "ground_truth_timestamp_wraps": 26,
+  "methods": {
+    "failure-aware": {
+      "false_negative": 0,
+      "false_positive": 3,
+      "false_reset_rate_per_node_hour": 0.0858805854482024,
+      "latency_observations": 14,
+      "precision": 0.8235294117647058,
+      "recall": 1.0,
+      "true_positive": 14
+    },
+    "naive-reset-on-regression": {
+      "false_negative": 2,
+      "false_positive": 29,
+      "false_reset_rate_per_node_hour": 0.8301789926659565,
+      "latency_observations": 12,
+      "precision": 0.2926829268292683,
+      "recall": 0.8571428571428571,
+      "true_positive": 12
+    },
+    "rollover-aware": {
+      "false_negative": 2,
+      "false_positive": 3,
+      "false_reset_rate_per_node_hour": 0.0858805854482024,
+      "latency_observations": 12,
+      "precision": 0.8,
+      "recall": 0.8571428571428571,
+      "true_positive": 12
+    }
+  },
+  "node_hours": 34.932225768411946,
+  "nodes": [
+    "sensor-node-a",
+    "sensor-node-b"
+  ],
+  "planned_reboot_trials": 10,
+  "schema_version": 1
+}

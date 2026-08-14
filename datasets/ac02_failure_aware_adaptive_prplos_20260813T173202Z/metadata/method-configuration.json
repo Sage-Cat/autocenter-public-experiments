@@ -1,0 +1,38 @@
+{
+  "aqmc": {
+    "airtime_budget_percent": 10.0,
+    "bytes_per_sample": 512,
+    "phy_rate_mbps": 54.0,
+    "probe_rate_hz": 2,
+    "qos_budget_percent": 5.0,
+    "rate_profile": "esp-experiment"
+  },
+  "context_max_age_seconds": 30,
+  "decision_interval_seconds": 2.0,
+  "default_rate_hz": 40,
+  "freshness_seconds": 5.0,
+  "minimum_frames": 4,
+  "mode": "recommend",
+  "motion_csi_cv": 0.25,
+  "motion_rssi_std_dbm": 3.0,
+  "nodes": {
+    "sensor-node-a": {},
+    "sensor-node-b": {}
+  },
+  "policy_variant": "aqmc-sacm",
+  "prpl_context_max_age_seconds": 15,
+  "router_role": "primary prplOS-compatible dual-band AP node; read-only context",
+  "rssi_std_scale_dbm": 5.0,
+  "sacm": {
+    "airtime_weight": 0.15,
+    "alpha_bytes": 0.0,
+    "alpha_node": 0.01,
+    "alpha_rate": 0.01,
+    "epsilon": 0.0,
+    "qos_weight": 0.15,
+    "quality_weight": 0.7
+  },
+  "schema_version": 1,
+  "timing_mode": "failure-aware-affine-v1",
+  "window_seconds": 2.0
+}
