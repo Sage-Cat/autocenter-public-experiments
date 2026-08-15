@@ -1,0 +1,17 @@
+{
+  "binary_sha256": {
+    "application_sha256": "aa8280903f5477114254821ee0cd2d41bc95dd8082681bdab09741241e6d1624",
+    "bootloader_sha256": "13b3f8443fb0242988b2feb148bb5fb6b8e1afcfab79c6c5688971aa369b31bf",
+    "partition_table_sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+  },
+  "esp_idf_version": "v5.5.4",
+  "firmware_version": "1.0.0",
+  "probe_payload_bytes": 512,
+  "runtime_rate_range_hz": [
+    0,
+    50
+  ],
+  "schema_version": 1,
+  "source_id": "sensor-node-c5-a",
+  "target": "esp32c5"
+}

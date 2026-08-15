@@ -1,7 +1,7 @@
 {
   "repository": "autocenter-public-experiments",
   "series": "AutoCenter operational sensing",
-  "generated_at": "2026-08-14T16:10:55+03:00",
+  "generated_at": "2026-08-15T19:53:08+03:00",
   "provenance": {
     "researcher_role": "independent individual researcher",
     "funding": "self-funded",
@@ -94,6 +94,56 @@
         "retained controller decisions, parsed prplOS context, and fault timing while removing raw device snapshots and private command fields",
         "retained failed and aborted attempts for auditability and excluded them from completed-experiment claims",
         "bounded claims to timing and failure discrimination, reset recovery, policy accounting, and read-only prplOS integration"
+      ]
+    },
+    {
+      "bundle_id": "ac03_multiband_endurance_prplos_20260814T135053Z",
+      "program_id": "AC03",
+      "status": "claim-grade-for-endurance-integrity-and-bounded-policy-accounting",
+      "source_bundle": "two independently timed AC03 collector runs",
+      "included_surfaces": [
+        "metadata.json",
+        "runbook.md",
+        "operator_notes.md",
+        "metadata/node-*-manifest.json",
+        "metadata/node-*-final.json",
+        "metadata/method-configuration.json",
+        "metadata/firmware-*.json",
+        "serial/node-*/chunks/*.ndjson.gz*",
+        "logs/node-*-chunks.ndjson",
+        "logs/node-*-collector-events.ndjson.gz",
+        "logs/node-*-host-health.ndjson.gz",
+        "logs/node-{a,b}-management-link.ndjson.gz",
+        "controller/decisions.ndjson.gz",
+        "controller/network-context.ndjson.gz",
+        "controller/prpl-context.ndjson.gz",
+        "analysis/README.md",
+        "analysis/design-corrections.md",
+        "analysis/source-summary.json",
+        "analysis/controller-summary.json",
+        "analysis/live-false-reset-audit.csv",
+        "analysis/failed-rate-sweep.json",
+        "analysis/planned-method-blocks.json",
+        "sanitization-accounting.json",
+        "qc_summary.md",
+        "experiment_report.md",
+        "SHA256SUMS"
+      ],
+      "excluded_surfaces": [
+        "private collector and controller configuration with infrastructure paths",
+        "raw prplOS board and radio snapshots and concrete device state",
+        "private commands, SSH material, credentials, tokens, addresses, device paths, and hostnames",
+        "site photographs, exact building identity, and concrete production-network identifiers",
+        "post-window controller and context append-log records",
+        "C5-B measurements because that board did not enumerate as a USB data device",
+        "unlisted private analysis and workflow artifacts"
+      ],
+      "sanitization_summary": [
+        "verified all three source-checksummed surfaces and preserved every readable finalized and interrupted measurement envelope",
+        "replaced source, session, network, hostname, address, interface, run, and device identifiers with functional public labels",
+        "retained bounded controller decisions and parsed prplOS context while removing raw snapshots and private command fields",
+        "cross-checked every live inferred reset against immutable serial source order and disclosed all 15 false classifications",
+        "bounded claims to multiband endurance, integrity, rollover discrimination, invalid-timing exclusion, policy accounting, and read-only prplOS integration"
       ]
     }
   ]

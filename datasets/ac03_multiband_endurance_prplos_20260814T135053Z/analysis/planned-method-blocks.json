@@ -1,0 +1,11 @@
+{
+  "claim_status": "not a result",
+  "cooldown_seconds": 20,
+  "phase_seconds": 600,
+  "prpl_wait_seconds": 180,
+  "repetitions": 3,
+  "require_prpl_context": true,
+  "schema_version": 1,
+  "seed": 20260813,
+  "status": "planned-not-executed"
+}

@@ -1,0 +1,99 @@
+{
+  "bundle_id": "ac03_multiband_endurance_prplos_20260814T135053Z",
+  "program_id": "AC03",
+  "series": "AutoCenter operational sensing",
+  "campaign": "August-2026 operational retail",
+  "condition": "natural-production-network",
+  "status": "claim-grade-for-endurance-integrity-and-bounded-policy-accounting",
+  "provenance": {
+    "researcher_role": "independent individual researcher",
+    "funding": "self-funded",
+    "sponsors": [],
+    "commercial_funding": false
+  },
+  "human_context": {
+    "site_permission": "operational-area measurement permitted by the site operator",
+    "participant_recruitment": false,
+    "participant_level_identifiers": false,
+    "human_activity_labels": false,
+    "audio_or_video_recording": false,
+    "network_payload_collection": false,
+    "public_interpretation": "unlabelled aggregate radio-environment context"
+  },
+  "collection": {
+    "s3_started_utc": "2026-08-14T13:50:53.392Z",
+    "s3_ended_utc": "2026-08-15T09:50:53.949Z",
+    "s3_scheduled_duration_seconds_per_node": 72000,
+    "c5_started_utc": "2026-08-14T14:45:07.943Z",
+    "c5_ended_utc": "2026-08-15T08:45:08.143Z",
+    "c5_scheduled_duration_seconds": 64800,
+    "site_class": "operational-retail-building",
+    "network_policy": "production-network-observe-only",
+    "operator_intervention": "one collector-host restart during setup troubleshooting; natural activity otherwise unlabelled"
+  },
+  "topology_summary": {
+    "collectors": 2,
+    "collector_class": "Raspberry Pi 5 autonomous Wi-Fi collectors",
+    "sensors_with_data": 3,
+    "s3_sensors": 2,
+    "s3_band": "2.4 GHz",
+    "s3_channel": 2,
+    "c5_sensors": 1,
+    "c5_band": "5 GHz",
+    "c5_channel": 36,
+    "probe_payload_bytes": 512,
+    "s3_endpoint_separation_m_approx": 17.0,
+    "reference_height_m_approx": 1.2,
+    "router_role": "primary prplOS-compatible dual-band AP node; read-only context",
+    "native_router_csi": false,
+    "c5_b_capture": false
+  },
+  "measurement_surface": {
+    "public_chunks": 697,
+    "finalized_chunks": 696,
+    "process_interrupted_chunks": 1,
+    "public_measurement_envelopes": 6298362,
+    "finalized_measurement_envelopes": 6290250,
+    "readable_process_interrupted_envelopes": 8112,
+    "finalized_structurally_valid_csi_records": 6248549,
+    "finalized_malformed_csi_candidates": 6,
+    "s3_valid_csi_records": 5790272,
+    "c5_valid_csi_records": 458277,
+    "source_sequence_missing": 0,
+    "source_sequence_duplicates": 0,
+    "source_sequence_regressions": 0,
+    "scheduled_sensor_hours": 58.0
+  },
+  "timing_and_failure_surface": {
+    "esp_32bit_microsecond_timestamp_wraps": 49,
+    "offline_nonwrap_timestamp_regressions": 0,
+    "observed_boot_epoch_transitions": 1,
+    "planned_fault_trials": 0,
+    "live_controller_inferred_resets": 15,
+    "live_controller_inferred_resets_disproved_by_serial_order": 15,
+    "invalid_timing_decisions_admitted": 0,
+    "claim_status": "offline rollover and observed restart are valid; live reset inference exposed a reorder-sensitivity defect"
+  },
+  "adaptive_surface": {
+    "controller_mode": "recommend",
+    "controller_decisions": 34407,
+    "two_node_quorum_decisions": 34311,
+    "mean_predicted_sensing_airtime_percent": 0.6058849368507054,
+    "mean_modeled_qos_penalty_percent": 0.12202302640827825,
+    "predicted_budget_violations": 0,
+    "successful_actuator_records": 0,
+    "valid_prplos_context_records": 4486,
+    "completed_rate_sweep_phases": 0,
+    "completed_method_blocks": 0,
+    "c5_in_controller_fusion": false
+  },
+  "privacy": {
+    "audit_artifacts_scanned": 734,
+    "audit_findings": 0,
+    "source_session_run_and_host_identifiers": "replaced with stable public labels",
+    "mac_and_bssid_values": "replaced with locally administered pseudonyms",
+    "raw_prplos_snapshots": "excluded; parsed fields retained",
+    "credentials_addresses_device_paths_hostnames_and_site_identity": "not present in the published surface"
+  },
+  "claim_boundary": "Claim-grade for autonomous multiband endurance, archive integrity, serial-order rollover discrimination, descriptive signal/continuity statistics, invalid-timing admission safety, policy-budget accounting, and read-only prplOS context integration. Not claim-grade for live inferred-reset precision, controlled-fault recall, successful parameter actuation, causal QoS improvement, method superiority, paired C5 cooperation, or occupancy/activity accuracy."
+}

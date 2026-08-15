@@ -1,0 +1,21 @@
+{
+  "chunk_seconds": 300,
+  "collection_mode": "unlabeled-operational-5ghz",
+  "collector_node": "collector-node-c5-a",
+  "collector_version": "0.4.0",
+  "duration_seconds": 64800,
+  "health_seconds": 10,
+  "host_machine": "aarch64",
+  "host_platform": "Linux-6.18.34+rpt-rpi-2712-aarch64-with-glibc2.41",
+  "host_python": "3.13.5",
+  "network_policy": "production-network-observe-only",
+  "preflight_ok": true,
+  "reconnect_seconds": 2,
+  "run_id": "ac03_multiband_endurance_prplos_20260814T135053Z",
+  "schema_version": 1,
+  "serial_baud": 921600,
+  "source_id": "sensor-node-c5-a",
+  "started_at": "2026-08-14T14:45:07.943Z",
+  "sync_seconds": 5,
+  "target_end_at": "2026-08-15T08:45:07.942Z"
+}

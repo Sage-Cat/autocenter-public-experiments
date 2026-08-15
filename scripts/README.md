@@ -4,6 +4,8 @@
   authorized finalized single-collector archive.
 - `sanitize_adaptive_run.py` creates the AC02-style two-node, controller, and
   prplOS-context public surface.
+- `sanitize_ac03_run.py` creates the AC03 two-S3/one-C5 multiband surface and
+  bounds controller/prplOS records to the S3 collection interval.
 - `sanitize_json.py` provides shared streaming normalization helpers.
 - `audit_public_privacy.py` exhaustively scans plain and gzip-compressed
   dataset artifacts for structured privacy violations without printing matched

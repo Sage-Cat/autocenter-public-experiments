@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "mode": "recommend",
+  "policy_variant": "aqmc-sacm",
+  "decision_count": 34407,
+  "decision_span_seconds": 68812.002564518,
+  "quorum_counts": {
+    "0": 15,
+    "1": 81,
+    "2": 34311
+  },
+  "sacm_action_counts": {
+    "accept": 64,
+    "fallback": 15,
+    "hold": 34328
+  },
+  "load_counts": {
+    "light": 34113,
+    "moderate": 256,
+    "elevated": 38
+  },
+  "budget": {
+    "feasible_decisions": 34407,
+    "violations": 0,
+    "airtime_percent_mean": 0.6058849368507054,
+    "airtime_percent_min": 0.03034074074074074,
+    "airtime_percent_max": 0.6068148148148148,
+    "modeled_qos_penalty_percent_mean": 0.12202302640827825,
+    "modeled_qos_penalty_percent_min": 0.006068148148148149,
+    "modeled_qos_penalty_percent_max": 0.3337481481481482
+  },
+  "timing": {
+    "sensor_node_a_valid_decisions": 34407,
+    "sensor_node_b_valid_decisions": 34405,
+    "invalid_timing_decisions_admitted": 0,
+    "live_inferred_resets_sensor_node_b": 15,
+    "inferred_resets_disproved_by_serial_order": 15,
+    "timestamp_wrap_events_sensor_node_a": 16,
+    "timestamp_wrap_events_sensor_node_b": 16,
+    "interpretation": "The controller began after the actual observed restart. Its 15 later inferred resets are UDP-ordering artifacts, not true resets."
+  },
+  "evidence": {
+    "sensor_node_a_available_decisions": 34375,
+    "sensor_node_b_available_decisions": 34328,
+    "sensor_node_a_reliability_mean": 0.9850612444885747,
+    "sensor_node_b_reliability_mean": 0.9888928272721609,
+    "sensor_node_a_timing_uncertainty_ms_mean": 2.86394576520344,
+    "sensor_node_b_timing_uncertainty_ms_mean": 1.2913848947760362
+  },
+  "prplos_context": {
+    "mode": "read-only",
+    "valid_records": 4486,
+    "radio_channel": 36,
+    "radio_utilization_percent_mean": 11.645341061078913,
+    "radio_utilization_percent_min": 8.0,
+    "radio_utilization_percent_max": 67.0
+  },
+  "actuation": {
+    "records": 0,
+    "successful_records": 0,
+    "production_network_configuration_changes": 0
+  },
+  "claim_boundary": "Policy-budget accounting and invalid-timing exclusion are supported. Actual parameter improvement, successful actuation, causal QoS benefit, and method superiority are not supported."
+}

@@ -8,6 +8,9 @@ published measurement chunks, integrity checksums, and only the bounded derived
 evidence listed in the manifest. Long-running bundles may also contain
 collector lifecycle and health records. Adaptive bundles may contain sanitized
 controller decisions, parsed prplOS context, and controlled-fault ledgers.
+Multiband bundles may combine independently timed sensor streams only when each
+stream's timing and topology are explicit; coexistence does not imply paired or
+cooperative operation.
 
 Concrete credentials, SSIDs, addresses, MAC/BSSID values, hostnames, device
 paths, board identifiers, exact site identity, raw router snapshots, and

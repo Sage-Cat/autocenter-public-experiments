@@ -1,0 +1,68 @@
+{
+  "controller_decisions": 34407,
+  "controller_end_wall_time_ns": 1786787453930549326,
+  "controller_start_wall_time_ns": 1786715453894497799,
+  "network_context_records": 6877,
+  "prpl_context_records": 4486,
+  "source_final_reason": "duration-complete",
+  "sources": {
+    "a": {
+      "chunks": {
+        "chunks": 240,
+        "records": 2907901,
+        "status_counts": {
+          "complete": 240
+        }
+      },
+      "events": {
+        "records": 11,
+        "recovered_prefixed_json_lines": 0
+      },
+      "host_health_records": 7183,
+      "management_link_records": 7200,
+      "source_verification": {
+        "checked_files": 247,
+        "reason": "duration-complete"
+      }
+    },
+    "b": {
+      "chunks": {
+        "chunks": 241,
+        "records": 2919229,
+        "status_counts": {
+          "complete": 240,
+          "incomplete-after-process-interruption": 1
+        }
+      },
+      "events": {
+        "records": 16,
+        "recovered_prefixed_json_lines": 0
+      },
+      "host_health_records": 7174,
+      "management_link_records": 7198,
+      "source_verification": {
+        "checked_files": 248,
+        "reason": "duration-complete"
+      }
+    },
+    "c5-a": {
+      "chunks": {
+        "chunks": 216,
+        "records": 471232,
+        "status_counts": {
+          "complete": 216
+        }
+      },
+      "events": {
+        "records": 5,
+        "recovered_prefixed_json_lines": 0
+      },
+      "host_health_records": 6465,
+      "management_link_records": 0,
+      "source_verification": {
+        "checked_files": 222,
+        "reason": "duration-complete"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "command_outcomes": [
+    {
+      "acknowledgement": "timeout",
+      "requested_rate_hz": 10,
+      "returncode": 3,
+      "source_id": "sensor-node-a",
+      "status": "failed"
+    },
+    {
+      "acknowledgement": "timeout",
+      "requested_rate_hz": 10,
+      "returncode": 3,
+      "source_id": "sensor-node-b",
+      "status": "failed"
+    }
+  ],
+  "completed_rate_phases": 0,
+  "ended_at": "2026-08-14T13:55:43.611Z",
+  "experiment": "esp32-runtime-rate-validation",
+  "interpretation": "The first 10 Hz commands timed out on both S3 sensors. No rate phase was completed and no runtime-rate comparison is claimed.",
+  "phase_seconds": 300.0,
+  "planned_rates_hz": [
+    10,
+    20,
+    40
+  ],
+  "schema_version": 1,
+  "started_at": "2026-08-14T13:55:32.563Z",
+  "status": "failed"
+}

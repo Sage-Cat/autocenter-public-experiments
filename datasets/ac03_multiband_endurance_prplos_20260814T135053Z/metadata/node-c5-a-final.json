@@ -1,0 +1,38 @@
+{
+  "ended_at": "2026-08-15T08:45:08.143Z",
+  "reason": "duration-complete",
+  "run_id": "ac03_multiband_endurance_prplos_20260814T135053Z",
+  "samplers": {},
+  "session_id": "collector-c5-a-session-001",
+  "sources": {
+    "sensor-node-c5-a": {
+      "compressed_bytes": 75817188,
+      "connections": 1,
+      "current_chunk": null,
+      "errors": 0,
+      "last_heartbeat": {
+        "boot_epoch": "420",
+        "bssid": "02:00:00:00:00:05",
+        "channel": "36",
+        "chip_temp_millicelsius": "47600",
+        "connected": "1",
+        "csi_count": "473171",
+        "fw_profile": "cooperative-router-csi-c5-v1",
+        "fw_version": "1.0.0",
+        "node_label": "sensor-node-c5-a",
+        "output_drops": "142",
+        "ping_hz": "40",
+        "probe_payload_bytes": "512",
+        "station_mac": "02:00:00:00:00:06",
+        "uptime_ms": "66396627"
+      },
+      "last_heartbeat_age_seconds": 4.937194099,
+      "last_profile": null,
+      "last_record_age_seconds": 0.018873312,
+      "last_record_wall_time": "2026-08-15T08:45:08.124Z",
+      "records": 471232,
+      "source_id": "sensor-node-c5-a",
+      "status": "stopped"
+    }
+  }
+}

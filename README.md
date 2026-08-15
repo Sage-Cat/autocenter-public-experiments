@@ -51,6 +51,23 @@ observed as natural interference and was not reconfigured for these runs.
   improvement, completed method-block comparison, C5/5 GHz CSI, or labelled
   human activity.
 
+### AC03 — multiband endurance and live timing audit
+
+- [Dataset](datasets/ac03_multiband_endurance_prplos_20260814T135053Z/)
+- Duration: 20 hours per S3 node plus an independent 18-hour C5 stream; 58
+  aggregate sensor-hours.
+- Topology: two Raspberry Pi 5 collectors, two 2.4 GHz ESP32-S3 sensors, one
+  data-producing 5 GHz ESP32-C5 sensor, and read-only prplOS context.
+- Surface: 6,298,362 public envelopes (6,290,250 finalized), 6,248,549
+  finalized valid CSI records, controller decisions, host/link telemetry, and
+  a record-level live false-reset audit.
+- Supported evidence: autonomous multiband endurance, archive integrity,
+  rollover discrimination, invalid-timing exclusion, policy-budget accounting,
+  and read-only prplOS integration.
+- Boundary: live timestamp-only reset inference was invalidated by UDP record
+  ordering; there was no controlled fault campaign, successful actuation,
+  completed rate/method comparison, paired-C5 stream, or labelled activity.
+
 ## Identifier convention
 
 - `ACNN`: AutoCenter operational experiment number.
