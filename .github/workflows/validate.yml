@@ -1,0 +1,35 @@
+name: Validate public archive
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  lightweight-validation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out validation surface
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/*/
+            /.github/
+            /docs/
+            /scripts/
+            /tests/
+            /datasets/README.md
+            /datasets/manifest.json
+      - name: Validate scripts and metadata
+        run: |
+          python3 -m compileall -q scripts
+          python3 -m unittest discover -s tests -v
+          python3 scripts/validate_repository.py

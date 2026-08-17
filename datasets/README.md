@@ -25,3 +25,6 @@ sha256sum -c SHA256SUMS
 
 See [the dataset policy](../docs/dataset-policy/policy.md) for the complete
 publication and claim-boundary rules.
+
+Original published data, metadata, and reports are available under CC BY 4.0;
+see [the repository license and attribution terms](../LICENSE.md).

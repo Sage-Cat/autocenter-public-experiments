@@ -2,6 +2,11 @@
   "repository": "autocenter-public-experiments",
   "series": "AutoCenter operational sensing",
   "generated_at": "2026-08-15T19:53:08+03:00",
+  "license": {
+    "data_and_documentation": "CC-BY-4.0",
+    "preferred_attribution": "AutoCenter Public Experiments, Sage-Cat, https://github.com/Sage-Cat/autocenter-public-experiments",
+    "software": "MIT"
+  },
   "provenance": {
     "researcher_role": "independent individual researcher",
     "funding": "self-funded",

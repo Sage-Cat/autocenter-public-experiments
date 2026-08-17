@@ -20,6 +20,8 @@ observed as natural interference and was not reconfigured for these runs.
 - [Architecture](docs/architecture/overview.md): measured system and data flow.
 - [Structure](docs/structure/repository-structure.md): repository layout.
 - [Scripts](scripts/): deterministic public sanitizers.
+- [License and reuse terms](LICENSE.md): MIT for source code and CC BY 4.0 for
+  the original published data and documentation.
 
 ## Published experiments
 
@@ -85,6 +87,13 @@ concrete SSIDs, IP/MAC/BSSID values, hostnames, board serials, device paths,
 exact site identity, and private control arguments are excluded or replaced by
 stable public labels. See the dataset policy and each bundle's claim boundary
 before using the data in a publication.
+
+## Reuse
+
+Original source code is available under the MIT License. Original published
+data and documentation are available under CC BY 4.0. See
+[the license and attribution terms](LICENSE.md) for the exact scope; the
+privacy and scientific claim boundaries continue to apply.
 
 ## Independence and funding
 

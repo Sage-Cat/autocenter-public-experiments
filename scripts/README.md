@@ -10,6 +10,9 @@
 - `audit_public_privacy.py` exhaustively scans plain and gzip-compressed
   dataset artifacts for structured privacy violations without printing matched
   values.
+- `validate_repository.py` checks JSON, local documentation links, and agreement
+  between the manifest and the tracked bundle surface without reading large
+  measurement payloads.
 
 The scripts intentionally require explicit source and destination arguments.
 Private identifier mappings are publication inputs and are never committed.
@@ -20,4 +23,10 @@ Run the public privacy gate with:
 
 ```sh
 python3 scripts/audit_public_privacy.py datasets
+```
+
+Run the lightweight repository gate with:
+
+```sh
+python3 scripts/validate_repository.py
 ```
