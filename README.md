@@ -13,6 +13,8 @@ observed as natural interference and was not reconfigured for these runs.
 
 - [Dataset manifest](datasets/manifest.json): authoritative publication index.
 - [Datasets](datasets/): complete sanitized experiment bundles.
+- [Record-level dataset catalog](datasets/DATASET_CATALOG.md): direct CSI paths,
+  full-vector record counts, and formats.
 - [Dataset policy](docs/dataset-policy/policy.md): inclusion, privacy, and
   claim-boundary rules.
 - [Provenance and privacy](docs/provenance-and-privacy.md): funding,
